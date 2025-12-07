@@ -43,3 +43,4 @@ For more details, see the [Docusaurus deployment documentation](https://docusaur
 ## Contributing
 
 This site contains the documentation for the Physical AI and Humanoid Robotics book. Contributions are welcome through pull requests to the main repository."# Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course" 
+"# Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course" 
