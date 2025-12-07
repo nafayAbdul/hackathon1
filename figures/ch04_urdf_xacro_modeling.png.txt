@@ -1,0 +1,11 @@
+Placeholder for Figure 4.1: URDF and Xacro Modeling diagram
+Shows the structure of robot model definition:
+- URDF (Unified Robot Description Format) showing links and joints
+- Xacro macros for reusable components
+- Visual vs Collision meshes
+- Inertial parameters for physics simulation
+
+The diagram contrasts the verbose URDF with parameterized Xacro definitions.
+Dimensions: 800x600 pixels
+Format: PNG image
+Color scheme: Blue for URDF components, green for Xacro macros, red for physics parameters

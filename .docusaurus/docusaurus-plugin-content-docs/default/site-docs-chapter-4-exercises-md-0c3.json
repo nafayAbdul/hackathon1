@@ -1,0 +1,24 @@
+{
+  "id": "chapter4_exercises",
+  "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+  "description": "Exercise 1: Create a 3-DOF Robotic Arm URDF",
+  "source": "@site/docs/chapter4_exercises.md",
+  "sourceDirName": ".",
+  "slug": "/chapter4_exercises",
+  "permalink": "/physical-ai-book/docs/chapter4_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter4_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4 - URDF and Xacro Mastery",
+    "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery"
+  },
+  "next": {
+    "title": "Chapter 5 - Complete ROS 2 Package",
+    "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+  }
+}

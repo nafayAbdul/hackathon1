@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Transmission definitions for athena humanoid -->
+
+  <!-- Left Shoulder Transmission -->
+  <xacro:macro name="transmission" params="name joint_name hardware_interface">
+    <transmission name="${name}">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${joint_name}">
+        <hardwareInterface>${hardware_interface}</hardwareInterface>
+      </joint>
+      <actuator name="${name}_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+  <!-- Full Body Transmission Definitions -->
+  <xacro:transmission name="left_shoulder_yaw_trans" joint_name="left_shoulder_yaw" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="left_elbow_pitch_trans" joint_name="left_elbow_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="left_wrist_pitch_trans" joint_name="left_wrist_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+  
+  <xacro:transmission name="right_shoulder_yaw_trans" joint_name="right_shoulder_yaw" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="right_elbow_pitch_trans" joint_name="right_elbow_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="right_wrist_pitch_trans" joint_name="right_wrist_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+
+  <xacro:transmission name="left_hip_yaw_trans" joint_name="left_hip_yaw" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="left_knee_pitch_trans" joint_name="left_knee_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="left_ankle_pitch_trans" joint_name="left_ankle_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+
+  <xacro:transmission name="right_hip_yaw_trans" joint_name="right_hip_yaw" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="right_knee_pitch_trans" joint_name="right_knee_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+  <xacro:transmission name="right_ankle_pitch_trans" joint_name="right_ankle_pitch" hardware_interface="position_controllers/JointPositionInterface"/>
+
+</robot>

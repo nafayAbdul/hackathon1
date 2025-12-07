@@ -1,0 +1,541 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/physical-ai-book/docs",
+          "tagsPath": "/physical-ai-book/docs/tags",
+          "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs",
+          "editUrlLocalized": "https://github.com/yourname/physical-ai-book/tree/main/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\hackthonQ3\\hacathon\\pysical_ai\\sidebars.js",
+          "contentPath": "D:\\hackthonQ3\\hacathon\\pysical_ai\\docs",
+          "contentPathLocalized": "D:\\hackthonQ3\\hacathon\\pysical_ai\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "chapter1_digital_to_embodied",
+              "title": "Chapter 1 - Digital AI to Embodied Intelligence",
+              "description": "Learning Objectives",
+              "source": "@site/docs/chapter1_digital_to_embodied.md",
+              "sourceDirName": ".",
+              "slug": "/chapter1_digital_to_embodied",
+              "permalink": "/physical-ai-book/docs/chapter1_digital_to_embodied",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter1_digital_to_embodied.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Chapter 1 - Digital AI to Embodied Intelligence"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 1 - The Robotic Nervous System",
+                "permalink": "/physical-ai-book/docs/module1_intro"
+              },
+              "next": {
+                "title": "Chapter 1 Exercises: From Digital AI to Embodied Intelligence",
+                "permalink": "/physical-ai-book/docs/chapter1_exercises"
+              }
+            },
+            {
+              "id": "chapter1_exercises",
+              "title": "Chapter 1 Exercises: From Digital AI to Embodied Intelligence",
+              "description": "Exercise 1: Understanding Moravec's Paradox",
+              "source": "@site/docs/chapter1_exercises.md",
+              "sourceDirName": ".",
+              "slug": "/chapter1_exercises",
+              "permalink": "/physical-ai-book/docs/chapter1_exercises",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter1_exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 1 - Digital AI to Embodied Intelligence",
+                "permalink": "/physical-ai-book/docs/chapter1_digital_to_embodied"
+              },
+              "next": {
+                "title": "Chapter 2 - ROS 2 Fundamentals",
+                "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals"
+              }
+            },
+            {
+              "id": "chapter2_exercises",
+              "title": "Chapter 2 Exercises: ROS 2 Humble/Iron Deep Dive",
+              "description": "Exercise 1: Custom Message Type",
+              "source": "@site/docs/chapter2_exercises.md",
+              "sourceDirName": ".",
+              "slug": "/chapter2_exercises",
+              "permalink": "/physical-ai-book/docs/chapter2_exercises",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter2_exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 2 - ROS 2 Fundamentals",
+                "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals"
+              },
+              "next": {
+                "title": "Chapter 3 - rclpy and AI Agents",
+                "permalink": "/physical-ai-book/docs/chapter3_rclpy_ai_agents"
+              }
+            },
+            {
+              "id": "chapter2_ros2_fundamentals",
+              "title": "Chapter 2 - ROS 2 Fundamentals",
+              "description": "Learning Objectives",
+              "source": "@site/docs/chapter2_ros2_fundamentals.md",
+              "sourceDirName": ".",
+              "slug": "/chapter2_ros2_fundamentals",
+              "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter2_ros2_fundamentals.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Chapter 2 - ROS 2 Fundamentals"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 1 Exercises: From Digital AI to Embodied Intelligence",
+                "permalink": "/physical-ai-book/docs/chapter1_exercises"
+              },
+              "next": {
+                "title": "Chapter 2 Exercises: ROS 2 Humble/Iron Deep Dive",
+                "permalink": "/physical-ai-book/docs/chapter2_exercises"
+              }
+            },
+            {
+              "id": "chapter3_exercises",
+              "title": "Chapter 3 Exercises: rclpy Ã¢â‚¬â€œ Bridging Python AI Agents to Robots",
+              "description": "Exercise 1: AI Node with Camera Processing",
+              "source": "@site/docs/chapter3_exercises.md",
+              "sourceDirName": ".",
+              "slug": "/chapter3_exercises",
+              "permalink": "/physical-ai-book/docs/chapter3_exercises",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter3_exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 3 - rclpy and AI Agents",
+                "permalink": "/physical-ai-book/docs/chapter3_rclpy_ai_agents"
+              },
+              "next": {
+                "title": "Chapter 4 - URDF and Xacro Mastery",
+                "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery"
+              }
+            },
+            {
+              "id": "chapter3_rclpy_ai_agents",
+              "title": "Chapter 3 - rclpy and AI Agents",
+              "description": "Learning Objectives",
+              "source": "@site/docs/chapter3_rclpy_ai_agents.md",
+              "sourceDirName": ".",
+              "slug": "/chapter3_rclpy_ai_agents",
+              "permalink": "/physical-ai-book/docs/chapter3_rclpy_ai_agents",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter3_rclpy_ai_agents.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Chapter 3 - rclpy and AI Agents"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 2 Exercises: ROS 2 Humble/Iron Deep Dive",
+                "permalink": "/physical-ai-book/docs/chapter2_exercises"
+              },
+              "next": {
+                "title": "Chapter 3 Exercises: rclpy Ã¢â‚¬â€œ Bridging Python AI Agents to Robots",
+                "permalink": "/physical-ai-book/docs/chapter3_exercises"
+              }
+            },
+            {
+              "id": "chapter4_exercises",
+              "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+              "description": "Exercise 1: Create a 3-DOF Robotic Arm URDF",
+              "source": "@site/docs/chapter4_exercises.md",
+              "sourceDirName": ".",
+              "slug": "/chapter4_exercises",
+              "permalink": "/physical-ai-book/docs/chapter4_exercises",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter4_exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 4 - URDF and Xacro Mastery",
+                "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery"
+              },
+              "next": {
+                "title": "Chapter 5 - Complete ROS 2 Package",
+                "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+              }
+            },
+            {
+              "id": "chapter4_urdf_xacro_mastery",
+              "title": "Chapter 4 - URDF and Xacro Mastery",
+              "description": "Learning Objectives",
+              "source": "@site/docs/chapter4_urdf_xacro_mastery.md",
+              "sourceDirName": ".",
+              "slug": "/chapter4_urdf_xacro_mastery",
+              "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter4_urdf_xacro_mastery.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Chapter 4 - URDF and Xacro Mastery"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 3 Exercises: rclpy Ã¢â‚¬â€œ Bridging Python AI Agents to Robots",
+                "permalink": "/physical-ai-book/docs/chapter3_exercises"
+              },
+              "next": {
+                "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+                "permalink": "/physical-ai-book/docs/chapter4_exercises"
+              }
+            },
+            {
+              "id": "chapter5_complete_ros2_package",
+              "title": "Chapter 5 - Complete ROS 2 Package",
+              "description": "Learning Objectives",
+              "source": "@site/docs/chapter5_complete_ros2_package.md",
+              "sourceDirName": ".",
+              "slug": "/chapter5_complete_ros2_package",
+              "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter5_complete_ros2_package.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6,
+                "title": "Chapter 5 - Complete ROS 2 Package"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+                "permalink": "/physical-ai-book/docs/chapter4_exercises"
+              },
+              "next": {
+                "title": "Chapter 5 Exercises: Building Your First ROS 2 Humanoid Package",
+                "permalink": "/physical-ai-book/docs/chapter5_exercises"
+              }
+            },
+            {
+              "id": "chapter5_exercises",
+              "title": "Chapter 5 Exercises: Building Your First ROS 2 Humanoid Package",
+              "description": "Exercise 1: Create a Launch File for Controllers Only",
+              "source": "@site/docs/chapter5_exercises.md",
+              "sourceDirName": ".",
+              "slug": "/chapter5_exercises",
+              "permalink": "/physical-ai-book/docs/chapter5_exercises",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter5_exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 5 - Complete ROS 2 Package",
+                "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Physical AI & Humanoid Robotics",
+              "description": "The Definitive 2025 Practitioner's Book",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/physical-ai-book/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Module 1 - The Robotic Nervous System",
+                "permalink": "/physical-ai-book/docs/module1_intro"
+              }
+            },
+            {
+              "id": "module1_intro",
+              "title": "Module 1 - The Robotic Nervous System",
+              "description": "Welcome to Module 1 of the Physical AI and Humanoid Robotics book. This module provides a comprehensive introduction to ROS 2 and humanoid robotics, focusing on creating AI-robot interfaces using the \"athena\" humanoid robot model (23-DoF).",
+              "source": "@site/docs/module1_intro.md",
+              "sourceDirName": ".",
+              "slug": "/module1_intro",
+              "permalink": "/physical-ai-book/docs/module1_intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1_intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Module 1 - The Robotic Nervous System"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physical AI & Humanoid Robotics",
+                "permalink": "/physical-ai-book/docs/intro"
+              },
+              "next": {
+                "title": "Chapter 1 - Digital AI to Embodied Intelligence",
+                "permalink": "/physical-ai-book/docs/chapter1_digital_to_embodied"
+              }
+            },
+            {
+              "id": "module1/chapter1_digital_to_embodied",
+              "title": "Chapter 1: From Digital AI to Embodied Intelligence",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module1/chapter1_digital_to_embodied.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/chapter1_digital_to_embodied",
+              "permalink": "/physical-ai-book/docs/module1/chapter1_digital_to_embodied",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter1_digital_to_embodied.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module1/chapter2_ros2_fundamentals",
+              "title": "Chapter 2: ROS 2 Humble/Iron Deep Dive (Nodes, Topics, Services, Actions)",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module1/chapter2_ros2_fundamentals.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/chapter2_ros2_fundamentals",
+              "permalink": "/physical-ai-book/docs/module1/chapter2_ros2_fundamentals",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter2_ros2_fundamentals.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module1/chapter3_rclpy_ai_agents",
+              "title": "Chapter 3: rclpy Ã¢â‚¬â€œ Bridging Python AI Agents to Robots",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module1/chapter3_rclpy_ai_agents.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/chapter3_rclpy_ai_agents",
+              "permalink": "/physical-ai-book/docs/module1/chapter3_rclpy_ai_agents",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter3_rclpy_ai_agents.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module1/chapter4_urdf_xacro_mastery",
+              "title": "Chapter 4: URDF/Xacro Mastery for Humanoids",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module1/chapter4_urdf_xacro_mastery.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/chapter4_urdf_xacro_mastery",
+              "permalink": "/physical-ai-book/docs/module1/chapter4_urdf_xacro_mastery",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter4_urdf_xacro_mastery.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module1/chapter5_complete_ros2_package",
+              "title": "Chapter 5: Building Your First ROS 2 Humanoid Package (with templates)",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module1/chapter5_complete_ros2_package.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/chapter5_complete_ros2_package",
+              "permalink": "/physical-ai-book/docs/module1/chapter5_complete_ros2_package",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter5_complete_ros2_package.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module1/intro",
+              "title": "Module 1: The Robotic Nervous System",
+              "description": "Overview",
+              "source": "@site/docs/module1/intro.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/intro",
+              "permalink": "/physical-ai-book/docs/module1/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Module 1: The Robotic Nervous System",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module1_intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "chapter1_digital_to_embodied"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1 Exercises",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "chapter1_exercises"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "chapter2_ros2_fundamentals"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2 Exercises",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "chapter2_exercises"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "chapter3_rclpy_ai_agents"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3 Exercises",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "chapter3_exercises"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "chapter4_urdf_xacro_mastery"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 4 Exercises",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "chapter4_exercises"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "chapter5_complete_ros2_package"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 5 Exercises",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "chapter5_exercises"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/physical-ai-book/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

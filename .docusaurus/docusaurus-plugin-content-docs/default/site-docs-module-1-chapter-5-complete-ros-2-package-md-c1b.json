@@ -1,0 +1,15 @@
+{
+  "id": "module1/chapter5_complete_ros2_package",
+  "title": "Chapter 5: Building Your First ROS 2 Humanoid Package (with templates)",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module1/chapter5_complete_ros2_package.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/chapter5_complete_ros2_package",
+  "permalink": "/physical-ai-book/docs/module1/chapter5_complete_ros2_package",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter5_complete_ros2_package.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

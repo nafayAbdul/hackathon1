@@ -1,0 +1,15 @@
+{
+  "id": "module1/chapter4_urdf_xacro_mastery",
+  "title": "Chapter 4: URDF/Xacro Mastery for Humanoids",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module1/chapter4_urdf_xacro_mastery.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/chapter4_urdf_xacro_mastery",
+  "permalink": "/physical-ai-book/docs/module1/chapter4_urdf_xacro_mastery",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1/chapter4_urdf_xacro_mastery.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

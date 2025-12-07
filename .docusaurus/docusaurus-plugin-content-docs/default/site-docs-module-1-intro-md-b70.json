@@ -1,0 +1,19 @@
+{
+  "id": "module1_intro",
+  "title": "Module 1 - The Robotic Nervous System",
+  "description": "Welcome to Module 1 of the Physical AI and Humanoid Robotics book. This module provides a comprehensive introduction to ROS 2 and humanoid robotics, focusing on creating AI-robot interfaces using the \"athena\" humanoid robot model (23-DoF).",
+  "source": "@site/docs/module1_intro.md",
+  "sourceDirName": ".",
+  "slug": "/module1_intro",
+  "permalink": "/physical-ai-book/docs/module1_intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/module1_intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Module 1 - The Robotic Nervous System"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "/physical-ai-book/__docusaurus/debug-12f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/__docusaurus/debug/config-4d3": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/__docusaurus/debug/content-a5b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    },
+    "__props": "__props---physical-ai-book-docusaurus-debug-content-85-e-5b0"
+  },
+  "/physical-ai-book/__docusaurus/debug/globalData-abe": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/__docusaurus/debug/metadata-587": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/__docusaurus/debug/registry-2ef": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/__docusaurus/debug/routes-1a5": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docusaurus-debugb-38-fb9"
+    }
+  },
+  "/physical-ai-book/docs-465": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-docsaba-a6d"
+    }
+  },
+  "/physical-ai-book/docs-a30": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---physical-ai-book-docse-93-ee2"
+  },
+  "/physical-ai-book/docs-2b7": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/physical-ai-book/docs/chapter1_digital_to_embodied-430": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-1-digital-to-embodied-062-b5d"
+  },
+  "/physical-ai-book/docs/chapter1_exercises-3be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-1-exercisesbf-0-b2d"
+  },
+  "/physical-ai-book/docs/chapter2_exercises-1cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-2-exercises-433-65f"
+  },
+  "/physical-ai-book/docs/chapter2_ros2_fundamentals-7a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-2-ros-2-fundamentalsf-2-b-c28"
+  },
+  "/physical-ai-book/docs/chapter3_exercises-861": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-3-exercisese-86-8e9"
+  },
+  "/physical-ai-book/docs/chapter3_rclpy_ai_agents-c4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-3-rclpy-ai-agents-3-a-1-50a"
+  },
+  "/physical-ai-book/docs/chapter4_exercises-daa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-4-exercises-0-c-3-37d"
+  },
+  "/physical-ai-book/docs/chapter4_urdf_xacro_mastery-0cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-4-urdf-xacro-mastery-4-dd-31e"
+  },
+  "/physical-ai-book/docs/chapter5_complete_ros2_package-6d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-5-complete-ros-2-packagef-54-cbf"
+  },
+  "/physical-ai-book/docs/chapter5_exercises-e1d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-chapter-5-exercises-155-270"
+  },
+  "/physical-ai-book/docs/intro-f2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-intro-0-e-3-b7e"
+  },
+  "/physical-ai-book/docs/module1_intro-860": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-introb-70-46d"
+  },
+  "/physical-ai-book/docs/module1/chapter1_digital_to_embodied-2b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-chapter-1-digital-to-embodied-34-d-768"
+  },
+  "/physical-ai-book/docs/module1/chapter2_ros2_fundamentals-f09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-chapter-2-ros-2-fundamentalsa-20-424"
+  },
+  "/physical-ai-book/docs/module1/chapter3_rclpy_ai_agents-0c5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-chapter-3-rclpy-ai-agents-0-bb-b86"
+  },
+  "/physical-ai-book/docs/module1/chapter4_urdf_xacro_mastery-a17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-chapter-4-urdf-xacro-mastery-8-ce-70e"
+  },
+  "/physical-ai-book/docs/module1/chapter5_complete_ros2_package-032": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-chapter-5-complete-ros-2-packagec-1-b-49c"
+  },
+  "/physical-ai-book/docs/module1/intro-9f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-introdd-9-84f"
+  },
+  "/physical-ai-book/-003": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---physical-ai-book-a-74-4aa"
+    },
+    "config": "config---physical-ai-book-5-e-9-c21"
+  }
+}

@@ -1,0 +1,11 @@
+Placeholder for Figure 2.1: ROS 2 Communication Patterns diagram
+Shows the main types of communication in ROS 2:
+- Nodes (computational units)
+- Topics (publish-subscribe pattern) 
+- Services (request-response pattern)
+- Actions (goal-feedback-result pattern)
+
+The diagram illustrates how these communication patterns interconnect in a robotic system.
+Dimensions: 800x600 pixels
+Format: PNG image
+Color scheme: Distinct colors for each communication type

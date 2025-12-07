@@ -1,0 +1,28 @@
+{
+  "id": "chapter4_urdf_xacro_mastery",
+  "title": "Chapter 4 - URDF and Xacro Mastery",
+  "description": "Learning Objectives",
+  "source": "@site/docs/chapter4_urdf_xacro_mastery.md",
+  "sourceDirName": ".",
+  "slug": "/chapter4_urdf_xacro_mastery",
+  "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter4_urdf_xacro_mastery.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Chapter 4 - URDF and Xacro Mastery"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3 Exercises: rclpy Ã¢â‚¬â€œ Bridging Python AI Agents to Robots",
+    "permalink": "/physical-ai-book/docs/chapter3_exercises"
+  },
+  "next": {
+    "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+    "permalink": "/physical-ai-book/docs/chapter4_exercises"
+  }
+}

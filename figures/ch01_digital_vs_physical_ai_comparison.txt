@@ -1,0 +1,15 @@
+Figure 1.1: Digital AI vs Physical AI comparison
+
+Description: This diagram illustrates the key differences between digital AI systems (like ChatGPT) and physical AI systems (like humanoid robots).
+
+Left side: Digital AI
+- Represents a computer/monitor with text bubbles
+- Shows clean, structured data flowing in
+- Text labels: "Controlled Environment", "Predictable Inputs", "No Physical Consequences"
+
+Right side: Physical AI
+- Represents a humanoid robot
+- Shows multiple sensor inputs (vision, touch, proprioception)
+- Text labels: "Dynamic Environment", "Multiple Sensor Streams", "Real-time Constraints", "Physical Consequences"
+
+Between the sides: A comparison arrow showing the contrast

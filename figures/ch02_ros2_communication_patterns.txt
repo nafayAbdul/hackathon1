@@ -1,0 +1,11 @@
+Figure 2.1: ROS 2 Communication Patterns
+
+Description: This diagram illustrates the four main communication patterns in ROS 2: Nodes, Topics, Services, and Actions.
+
+Diagram components:
+- Node icon: Rectangle representing a computational unit
+- Topic icon: Unidirectional arrow with circular broadcast
+- Service icon: Bidirectional arrow showing request/response
+- Action icon: Bidirectional arrow with feedback loop
+
+Visual representation of how these patterns interconnect in a robotic system.

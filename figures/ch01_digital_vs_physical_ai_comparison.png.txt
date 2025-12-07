@@ -1,0 +1,8 @@
+Placeholder for Figure 1.1: Digital AI vs Physical AI comparison diagram
+Shows Digital AI systems like ChatGPT operating in controlled, digital environments with clean, structured data,
+while physical AI systems like Figure 02 operate in unstructured, dynamic real-world environments with multiple 
+sensor streams, real-time constraints, and physical consequences.
+
+Dimensions: 800x600 pixels
+Format: PNG image
+Color scheme: Contrasting colors to show differences between digital and physical domains

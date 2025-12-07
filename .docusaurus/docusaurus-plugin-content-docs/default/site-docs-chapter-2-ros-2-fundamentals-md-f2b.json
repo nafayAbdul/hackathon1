@@ -1,0 +1,28 @@
+{
+  "id": "chapter2_ros2_fundamentals",
+  "title": "Chapter 2 - ROS 2 Fundamentals",
+  "description": "Learning Objectives",
+  "source": "@site/docs/chapter2_ros2_fundamentals.md",
+  "sourceDirName": ".",
+  "slug": "/chapter2_ros2_fundamentals",
+  "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter2_ros2_fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Chapter 2 - ROS 2 Fundamentals"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 Exercises: From Digital AI to Embodied Intelligence",
+    "permalink": "/physical-ai-book/docs/chapter1_exercises"
+  },
+  "next": {
+    "title": "Chapter 2 Exercises: ROS 2 Humble/Iron Deep Dive",
+    "permalink": "/physical-ai-book/docs/chapter2_exercises"
+  }
+}

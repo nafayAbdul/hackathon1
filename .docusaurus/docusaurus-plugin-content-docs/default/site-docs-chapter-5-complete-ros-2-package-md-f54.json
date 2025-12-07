@@ -1,0 +1,28 @@
+{
+  "id": "chapter5_complete_ros2_package",
+  "title": "Chapter 5 - Complete ROS 2 Package",
+  "description": "Learning Objectives",
+  "source": "@site/docs/chapter5_complete_ros2_package.md",
+  "sourceDirName": ".",
+  "slug": "/chapter5_complete_ros2_package",
+  "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter5_complete_ros2_package.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Chapter 5 - Complete ROS 2 Package"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4 Exercises: URDF/Xacro Mastery for Humanoids",
+    "permalink": "/physical-ai-book/docs/chapter4_exercises"
+  },
+  "next": {
+    "title": "Chapter 5 Exercises: Building Your First ROS 2 Humanoid Package",
+    "permalink": "/physical-ai-book/docs/chapter5_exercises"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/physical-ai-book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/physical-ai-book/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "chapter1_digital_to_embodied",
+              "path": "/physical-ai-book/docs/chapter1_digital_to_embodied",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter1_exercises",
+              "path": "/physical-ai-book/docs/chapter1_exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter2_exercises",
+              "path": "/physical-ai-book/docs/chapter2_exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter2_ros2_fundamentals",
+              "path": "/physical-ai-book/docs/chapter2_ros2_fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter3_exercises",
+              "path": "/physical-ai-book/docs/chapter3_exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter3_rclpy_ai_agents",
+              "path": "/physical-ai-book/docs/chapter3_rclpy_ai_agents",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter4_exercises",
+              "path": "/physical-ai-book/docs/chapter4_exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter4_urdf_xacro_mastery",
+              "path": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter5_complete_ros2_package",
+              "path": "/physical-ai-book/docs/chapter5_complete_ros2_package",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chapter5_exercises",
+              "path": "/physical-ai-book/docs/chapter5_exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/physical-ai-book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1_intro",
+              "path": "/physical-ai-book/docs/module1_intro"
+            },
+            {
+              "id": "module1/chapter1_digital_to_embodied",
+              "path": "/physical-ai-book/docs/module1/chapter1_digital_to_embodied"
+            },
+            {
+              "id": "module1/chapter2_ros2_fundamentals",
+              "path": "/physical-ai-book/docs/module1/chapter2_ros2_fundamentals"
+            },
+            {
+              "id": "module1/chapter3_rclpy_ai_agents",
+              "path": "/physical-ai-book/docs/module1/chapter3_rclpy_ai_agents"
+            },
+            {
+              "id": "module1/chapter4_urdf_xacro_mastery",
+              "path": "/physical-ai-book/docs/module1/chapter4_urdf_xacro_mastery"
+            },
+            {
+              "id": "module1/chapter5_complete_ros2_package",
+              "path": "/physical-ai-book/docs/module1/chapter5_complete_ros2_package"
+            },
+            {
+              "id": "module1/intro",
+              "path": "/physical-ai-book/docs/module1/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/physical-ai-book/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

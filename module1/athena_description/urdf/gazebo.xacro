@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Gazebo-specific elements for the athena humanoid -->
+
+  <!-- Gazebo Materials -->
+  <gazebo reference="base_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="head">
+    <material>Gazebo/White</material>
+  </gazebo>
+
+  <gazebo reference="left_shoulder">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="left_elbow">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="left_wrist">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_shoulder">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="right_elbow">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="right_wrist">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_hip">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="left_knee">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="left_ankle">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_hip">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="right_knee">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+
+  <gazebo reference="right_ankle">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <!-- Gazebo Plugins -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find athena_description)/config/athena_control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- Gazebo ROS2 Control -->
+  <gazebo>
+    <plugin name="gz_ros2_control::GazeboSystem" filename="libgz_ros2_control-system.so">
+      <parameters>$(find athena_description)/config/athena_control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

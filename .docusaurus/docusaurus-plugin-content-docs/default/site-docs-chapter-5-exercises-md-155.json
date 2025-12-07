@@ -1,0 +1,20 @@
+{
+  "id": "chapter5_exercises",
+  "title": "Chapter 5 Exercises: Building Your First ROS 2 Humanoid Package",
+  "description": "Exercise 1: Create a Launch File for Controllers Only",
+  "source": "@site/docs/chapter5_exercises.md",
+  "sourceDirName": ".",
+  "slug": "/chapter5_exercises",
+  "permalink": "/physical-ai-book/docs/chapter5_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/docs/chapter5_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5 - Complete ROS 2 Package",
+    "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+  }
+}
