@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/chapter6_exercises.md",
   "sourceDirName": "module2",
   "slug": "/module2/chapter6_exercises",
-  "permalink": "/physical-ai-book/docs/module2/chapter6_exercises",
+  "permalink": "/docs/module2/chapter6_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter6_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 6: Simulation in 2025 – Choosing and Mastering Your Physics Engine",
-    "permalink": "/physical-ai-book/docs/module2/chapter6_simulation_2025"
+    "permalink": "/docs/module2/chapter6_simulation_2025"
   },
   "next": {
     "title": "Chapter 7: Realistic Sensors in Simulation – Depth, LiDAR, IMU, and Contact",
-    "permalink": "/physical-ai-book/docs/module2/chapter7_realistic_sensors"
+    "permalink": "/docs/module2/chapter7_realistic_sensors"
   }
 }

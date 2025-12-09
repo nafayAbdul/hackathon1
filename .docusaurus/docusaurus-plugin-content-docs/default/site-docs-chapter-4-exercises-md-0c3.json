@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter4_exercises.md",
   "sourceDirName": ".",
   "slug": "/chapter4_exercises",
-  "permalink": "/physical-ai-book/docs/chapter4_exercises",
+  "permalink": "/docs/chapter4_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter4_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 4 - URDF and Xacro Mastery",
-    "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery"
+    "permalink": "/docs/chapter4_urdf_xacro_mastery"
   },
   "next": {
     "title": "Chapter 5 - Complete ROS 2 Package",
-    "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+    "permalink": "/docs/chapter5_complete_ros2_package"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/intro.md",
   "sourceDirName": "module3",
   "slug": "/module3/intro",
-  "permalink": "/physical-ai-book/docs/module3/intro",
+  "permalink": "/docs/module3/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/intro.md",
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 10 Exercises",
-    "permalink": "/physical-ai-book/docs/module2/chapter10_exercises"
+    "permalink": "/docs/module2/chapter10_exercises"
   },
   "next": {
     "title": "Chapter 11: Isaac Sim 2025 – From Installation to Photorealistic Humanoid Simulation",
-    "permalink": "/physical-ai-book/docs/module3/chapter11_simulation_2025"
+    "permalink": "/docs/module3/chapter11_simulation_2025"
   }
 }

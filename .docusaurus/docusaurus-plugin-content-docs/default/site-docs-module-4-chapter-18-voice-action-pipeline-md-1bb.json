@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/chapter18_voice_action_pipeline.md",
   "sourceDirName": "module4",
   "slug": "/module4/chapter18_voice_action_pipeline",
-  "permalink": "/physical-ai-book/docs/module4/chapter18_voice_action_pipeline",
+  "permalink": "/docs/module4/chapter18_voice_action_pipeline",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter18_voice_action_pipeline.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 17 Exercises: Language Grounding in VLA Models",
-    "permalink": "/physical-ai-book/docs/module4/chapter17_exercises"
+    "permalink": "/docs/module4/chapter17_exercises"
   },
   "next": {
     "title": "Chapter 18 Exercises: Voice-to-Action Pipeline",
-    "permalink": "/physical-ai-book/docs/module4/chapter18_exercises"
+    "permalink": "/docs/module4/chapter18_exercises"
   }
 }

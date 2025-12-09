@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/chapter20_exercises.md",
   "sourceDirName": "module4",
   "slug": "/module4/chapter20_exercises",
-  "permalink": "/physical-ai-book/docs/module4/chapter20_exercises",
+  "permalink": "/docs/module4/chapter20_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter20_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 20: Capstone Integration – Athena Autonomous Kitchen Assistant",
-    "permalink": "/physical-ai-book/docs/module4/chapter20_sim_to_real_transfer"
+    "permalink": "/docs/module4/chapter20_sim_to_real_transfer"
   },
   "next": {
     "title": "Module 4 Summary: Vision-Language-Action Models – From Voice to Physical Action",
-    "permalink": "/physical-ai-book/docs/module4/summary"
+    "permalink": "/docs/module4/summary"
   }
 }

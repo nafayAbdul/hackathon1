@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter2_ros2_fundamentals.md",
   "sourceDirName": ".",
   "slug": "/chapter2_ros2_fundamentals",
-  "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals",
+  "permalink": "/docs/chapter2_ros2_fundamentals",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter2_ros2_fundamentals.md",
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1 Exercises: From Digital AI to Embodied Intelligence",
-    "permalink": "/physical-ai-book/docs/chapter1_exercises"
+    "permalink": "/docs/chapter1_exercises"
   },
   "next": {
     "title": "Chapter 2 Exercises: ROS 2 Humble/Iron Deep Dive",
-    "permalink": "/physical-ai-book/docs/chapter2_exercises"
+    "permalink": "/docs/chapter2_exercises"
   }
 }

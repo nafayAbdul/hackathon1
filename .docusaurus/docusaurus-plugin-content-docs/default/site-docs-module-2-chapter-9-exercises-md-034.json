@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/chapter9_exercises.md",
   "sourceDirName": "module2",
   "slug": "/module2/chapter9_exercises",
-  "permalink": "/physical-ai-book/docs/module2/chapter9_exercises",
+  "permalink": "/docs/module2/chapter9_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter9_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 9: Domain Randomization and Large-Scale Synthetic Data Generation",
-    "permalink": "/physical-ai-book/docs/module2/chapter9_domain_randomization"
+    "permalink": "/docs/module2/chapter9_domain_randomization"
   },
   "next": {
     "title": "Chapter 10: Closing the Sim Loop – Full Autonomous Stack in the Digital Twin",
-    "permalink": "/physical-ai-book/docs/module2/chapter10_closing_sim_loop"
+    "permalink": "/docs/module2/chapter10_closing_sim_loop"
   }
 }

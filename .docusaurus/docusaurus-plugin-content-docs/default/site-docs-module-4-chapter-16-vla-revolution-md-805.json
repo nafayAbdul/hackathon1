@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/chapter16_vla_revolution.md",
   "sourceDirName": "module4",
   "slug": "/module4/chapter16_vla_revolution",
-  "permalink": "/physical-ai-book/docs/module4/chapter16_vla_revolution",
+  "permalink": "/docs/module4/chapter16_vla_revolution",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter16_vla_revolution.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 4: Vision-Language-Action Models – From Voice to Physical Action",
-    "permalink": "/physical-ai-book/docs/module4/intro"
+    "permalink": "/docs/module4/intro"
   },
   "next": {
     "title": "Chapter 16 Exercises: OpenVLA Fundamentals",
-    "permalink": "/physical-ai-book/docs/module4/chapter16_exercises"
+    "permalink": "/docs/module4/chapter16_exercises"
   }
 }

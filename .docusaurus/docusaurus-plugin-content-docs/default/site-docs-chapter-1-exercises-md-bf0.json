@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter1_exercises.md",
   "sourceDirName": ".",
   "slug": "/chapter1_exercises",
-  "permalink": "/physical-ai-book/docs/chapter1_exercises",
+  "permalink": "/docs/chapter1_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter1_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1 - Digital AI to Embodied Intelligence",
-    "permalink": "/physical-ai-book/docs/chapter1_digital_to_embodied"
+    "permalink": "/docs/chapter1_digital_to_embodied"
   },
   "next": {
     "title": "Chapter 2 - ROS 2 Fundamentals",
-    "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals"
+    "permalink": "/docs/chapter2_ros2_fundamentals"
   }
 }

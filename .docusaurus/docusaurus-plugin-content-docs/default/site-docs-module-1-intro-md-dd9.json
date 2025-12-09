@@ -5,7 +5,7 @@
   "source": "@site/docs/module1/intro.md",
   "sourceDirName": "module1",
   "slug": "/module1/intro",
-  "permalink": "/physical-ai-book/docs/module1/intro",
+  "permalink": "/docs/module1/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module1/intro.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Physical AI & Humanoid Robotics",
-    "permalink": "/physical-ai-book/docs/intro"
+    "permalink": "/docs/intro"
   },
   "next": {
     "title": "Chapter 1 - Digital AI to Embodied Intelligence",
-    "permalink": "/physical-ai-book/docs/chapter1_digital_to_embodied"
+    "permalink": "/docs/chapter1_digital_to_embodied"
   }
 }

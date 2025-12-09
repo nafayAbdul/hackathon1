@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/chapter17_fine_tuning.md",
   "sourceDirName": "module4",
   "slug": "/module4/chapter17_fine_tuning",
-  "permalink": "/physical-ai-book/docs/module4/chapter17_fine_tuning",
+  "permalink": "/docs/module4/chapter17_fine_tuning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter17_fine_tuning.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 16 Exercises: OpenVLA Fundamentals",
-    "permalink": "/physical-ai-book/docs/module4/chapter16_exercises"
+    "permalink": "/docs/module4/chapter16_exercises"
   },
   "next": {
     "title": "Chapter 17 Exercises: Language Grounding in VLA Models",
-    "permalink": "/physical-ai-book/docs/module4/chapter17_exercises"
+    "permalink": "/docs/module4/chapter17_exercises"
   }
 }

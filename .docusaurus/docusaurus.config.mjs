@@ -8,7 +8,7 @@ export default {
   "tagline": "The Definitive 2025 Practitioner's Book",
   "favicon": "img/favicon.ico",
   "url": "https://your-book-url.github.io",
-  "baseUrl": "/physical-ai-book/",
+  "baseUrl": "/",
   "organizationName": "Abdul-Nafay-331",
   "projectName": "Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course",
   "deploymentBranch": "gh-pages",

@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/chapter12_ros2_fundamentals.md",
   "sourceDirName": "module3",
   "slug": "/module3/chapter12_ros2_fundamentals",
-  "permalink": "/physical-ai-book/docs/module3/chapter12_ros2_fundamentals",
+  "permalink": "/docs/module3/chapter12_ros2_fundamentals",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/chapter12_ros2_fundamentals.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 11: Isaac Sim 2025 – From Installation to Photorealistic Humanoid Simulation",
-    "permalink": "/physical-ai-book/docs/module3/chapter11_simulation_2025"
+    "permalink": "/docs/module3/chapter11_simulation_2025"
   },
   "next": {
     "title": "Chapter 13: Advanced Navigation & Manipulation for Bipedal Humanoids (Nav2 + MoveIt 2 + Isaac)",
-    "permalink": "/physical-ai-book/docs/module3/chapter13_advanced_navigation"
+    "permalink": "/docs/module3/chapter13_advanced_navigation"
   }
 }

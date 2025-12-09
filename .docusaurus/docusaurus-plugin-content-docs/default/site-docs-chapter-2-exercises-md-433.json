@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter2_exercises.md",
   "sourceDirName": ".",
   "slug": "/chapter2_exercises",
-  "permalink": "/physical-ai-book/docs/chapter2_exercises",
+  "permalink": "/docs/chapter2_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter2_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2 - ROS 2 Fundamentals",
-    "permalink": "/physical-ai-book/docs/chapter2_ros2_fundamentals"
+    "permalink": "/docs/chapter2_ros2_fundamentals"
   },
   "next": {
     "title": "Chapter 3 - rclpy and AI Agents",
-    "permalink": "/physical-ai-book/docs/chapter3_rclpy_ai_agents"
+    "permalink": "/docs/chapter3_rclpy_ai_agents"
   }
 }

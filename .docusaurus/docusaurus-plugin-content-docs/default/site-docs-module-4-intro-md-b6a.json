@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/intro.md",
   "sourceDirName": "module4",
   "slug": "/module4/intro",
-  "permalink": "/physical-ai-book/docs/module4/intro",
+  "permalink": "/docs/module4/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/intro.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 3 Summary",
-    "permalink": "/physical-ai-book/docs/module3/summary"
+    "permalink": "/docs/module3/summary"
   },
   "next": {
     "title": "Chapter 16: OpenVLA Fundamentals – Vision-Based Action Generation",
-    "permalink": "/physical-ai-book/docs/module4/chapter16_vla_revolution"
+    "permalink": "/docs/module4/chapter16_vla_revolution"
   }
 }

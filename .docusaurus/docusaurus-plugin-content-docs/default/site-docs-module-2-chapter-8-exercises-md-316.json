@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/chapter8_exercises.md",
   "sourceDirName": "module2",
   "slug": "/module2/chapter8_exercises",
-  "permalink": "/physical-ai-book/docs/module2/chapter8_exercises",
+  "permalink": "/docs/module2/chapter8_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter8_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 8: Photorealistic Rendering with Unity and Unreal for Human-Robot Interaction",
-    "permalink": "/physical-ai-book/docs/module2/chapter8_photorealistic_rendering"
+    "permalink": "/docs/module2/chapter8_photorealistic_rendering"
   },
   "next": {
     "title": "Chapter 9: Domain Randomization and Large-Scale Synthetic Data Generation",
-    "permalink": "/physical-ai-book/docs/module2/chapter9_domain_randomization"
+    "permalink": "/docs/module2/chapter9_domain_randomization"
   }
 }

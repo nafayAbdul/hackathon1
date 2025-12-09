@@ -14,7 +14,7 @@
       "path": "en",
       "translate": false,
       "url": "https://your-book-url.github.io",
-      "baseUrl": "/physical-ai-book/"
+      "baseUrl": "/"
     }
   }
 }

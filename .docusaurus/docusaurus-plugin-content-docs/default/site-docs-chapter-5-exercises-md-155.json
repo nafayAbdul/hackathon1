@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter5_exercises.md",
   "sourceDirName": ".",
   "slug": "/chapter5_exercises",
-  "permalink": "/physical-ai-book/docs/chapter5_exercises",
+  "permalink": "/docs/chapter5_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter5_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 5 - Complete ROS 2 Package",
-    "permalink": "/physical-ai-book/docs/chapter5_complete_ros2_package"
+    "permalink": "/docs/chapter5_complete_ros2_package"
   },
   "next": {
     "title": "Module 2 Introduction",
-    "permalink": "/physical-ai-book/docs/module2/intro"
+    "permalink": "/docs/module2/intro"
   }
 }

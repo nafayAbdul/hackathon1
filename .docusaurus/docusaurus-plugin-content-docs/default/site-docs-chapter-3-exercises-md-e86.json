@@ -5,7 +5,7 @@
   "source": "@site/docs/chapter3_exercises.md",
   "sourceDirName": ".",
   "slug": "/chapter3_exercises",
-  "permalink": "/physical-ai-book/docs/chapter3_exercises",
+  "permalink": "/docs/chapter3_exercises",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/chapter3_exercises.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3 - rclpy and AI Agents",
-    "permalink": "/physical-ai-book/docs/chapter3_rclpy_ai_agents"
+    "permalink": "/docs/chapter3_rclpy_ai_agents"
   },
   "next": {
     "title": "Chapter 4 - URDF and Xacro Mastery",
-    "permalink": "/physical-ai-book/docs/chapter4_urdf_xacro_mastery"
+    "permalink": "/docs/chapter4_urdf_xacro_mastery"
   }
 }
