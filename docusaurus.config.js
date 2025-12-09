@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/',
+            'https://github.com/nafayAbdul/hackathon1/tree/main/docs/',
         },
         blog: false, // Disable blog if not needed
         theme: {
@@ -67,7 +67,7 @@ const config = {
             label: 'Modules',
           },
           {
-            href: 'https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
+            href: 'https://github.com/nafayAbdul/hackathon1',
             label: 'GitHub',
             position: 'right',
           },
@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
+                href: 'https://github.com/nafayAbdul/hackathon1',
               },
             ],
           },
