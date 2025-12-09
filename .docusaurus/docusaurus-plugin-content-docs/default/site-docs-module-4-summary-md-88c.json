@@ -1,0 +1,23 @@
+{
+  "id": "module4/summary",
+  "title": "Module 4 Summary: Vision-Language-Action Models – From Voice to Physical Action",
+  "description": "Overview",
+  "source": "@site/docs/module4/summary.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/summary",
+  "permalink": "/physical-ai-book/docs/module4/summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 21,
+  "frontMatter": {
+    "sidebar_position": 21
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 20 Exercises: Capstone Integration",
+    "permalink": "/physical-ai-book/docs/module4/chapter20_exercises"
+  }
+}

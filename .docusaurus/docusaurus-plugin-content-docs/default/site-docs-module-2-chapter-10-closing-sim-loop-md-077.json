@@ -1,0 +1,24 @@
+{
+  "id": "module2/chapter10_closing_sim_loop",
+  "title": "Chapter 10: Closing the Sim Loop – Full Autonomous Stack in the Digital Twin",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2/chapter10_closing_sim_loop.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter10_closing_sim_loop",
+  "permalink": "/physical-ai-book/docs/module2/chapter10_closing_sim_loop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter10_closing_sim_loop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter9_exercises"
+  },
+  "next": {
+    "title": "Chapter 10 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter10_exercises"
+  }
+}

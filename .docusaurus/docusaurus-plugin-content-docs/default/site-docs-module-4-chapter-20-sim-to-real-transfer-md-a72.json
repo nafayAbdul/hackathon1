@@ -1,0 +1,27 @@
+{
+  "id": "module4/chapter20_sim_to_real_transfer",
+  "title": "Chapter 20: Capstone Integration – Athena Autonomous Kitchen Assistant",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4/chapter20_sim_to_real_transfer.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter20_sim_to_real_transfer",
+  "permalink": "/physical-ai-book/docs/module4/chapter20_sim_to_real_transfer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter20_sim_to_real_transfer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_position": 20
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 19 Exercises: Real-World Deployment",
+    "permalink": "/physical-ai-book/docs/module4/chapter19_exercises"
+  },
+  "next": {
+    "title": "Chapter 20 Exercises: Capstone Integration",
+    "permalink": "/physical-ai-book/docs/module4/chapter20_exercises"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "module3/README",
+  "title": "Module 3: The AI-Robot Brain – NVIDIA Isaac Platform",
+  "description": "Welcome to Module 3 of the Physical AI and Humanoid Robotics textbook. This module focuses on creating advanced AI-robot brains using NVIDIA's Isaac Platform. You'll learn to master Isaac Sim 2025.2, implement hardware-accelerated perception with Isaac ROS 2, integrate navigation and manipulation systems, train reinforcement learning policies with Isaac Lab, and execute sim-to-real transfer.",
+  "source": "@site/docs/module3/README.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/",
+  "permalink": "/physical-ai-book/docs/module3/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

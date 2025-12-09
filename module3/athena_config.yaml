@@ -1,0 +1,39 @@
+# Athena humanoid configuration for Isaac Sim
+# athena_config.yaml
+
+physics:
+  dt: 0.005  # Physics timestep (200 Hz)
+  substeps: 1
+
+rendering:
+  dt: 0.0167  # Rendering timestep (~60 Hz)
+  
+scene:
+  name: "athena_apartment"
+  gravity: [0, 0, -9.81]
+  
+robot:
+  usd_path: "/path/to/athena/athena.usd"
+  position: [0, 0, 0.8]  # Start above ground to ensure stability
+  orientation: [0, 0, 0, 1]  # Quaternion [x, y, z, w]
+  
+control:
+  frequency: 200  # Hz
+  type: "position"  # or "effort", "velocity"
+  
+sensors:
+  camera:
+    position: [0.2, 0, 0.8]  # Position relative to robot base
+    orientation: [0, 0, 0, 1]
+    resolution: [640, 480]
+    fov: 1.047  # Field of view in radians (60 degrees)
+  
+  imu:
+    position: [0, 0, 0.5]  # Position relative to robot base
+    orientation: [0, 0, 0, 1]
+  
+  lidar:
+    position: [0.1, 0, 0.9]
+    orientation: [0, 0, 0, 1]
+    range: 10.0
+    resolution: 0.01  # 1cm resolution

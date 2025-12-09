@@ -1,0 +1,18 @@
+{
+  "id": "module4/chapter20_autonomous_humanoid_capstone",
+  "title": "Chapter 20: The Autonomous Humanoid Capstone – \"Athena, Clean the Kitchen\" in Simulation and Reality",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4/chapter20_autonomous_humanoid_capstone.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter20_autonomous_humanoid_capstone",
+  "permalink": "/physical-ai-book/docs/module4/chapter20_autonomous_humanoid_capstone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter20_autonomous_humanoid_capstone.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  }
+}

@@ -29,3 +29,304 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Terminal-style Hero Banner */
+.heroBanner_terminal {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBanner_terminal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(rgba(18, 164, 233, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 164, 233, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  z-index: 0;
+}
+
+.heroBanner_terminal .container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroBanner_terminal .hero__title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #4cc9f0, #4361ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.heroBanner_terminal .hero__subtitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  color: #a0a0c0;
+}
+
+.terminal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.terminal-card {
+  display: block;
+  background: rgba(10, 15, 30, 0.8);
+  border: 1px solid rgba(70, 100, 255, 0.3);
+  border-radius: 8px;
+  box-shadow:
+    0 0 15px rgba(43, 107, 255, 0.2),
+    inset 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.terminal-card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #4cc9f0, #4361ee, #3a0ca3, #4cc9f0);
+  background-size: 400% 400%;
+  border-radius: 10px;
+  z-index: -1;
+  animation: gradient 3s ease infinite;
+}
+
+.terminal-card:hover {
+  transform: translateY(-5px);
+  box-shadow:
+    0 0 20px rgba(43, 107, 255, 0.4),
+    inset 0 0 15px rgba(0, 0, 0, 0.2);
+  border-color: rgba(70, 100, 255, 0.6);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  background: rgba(20, 25, 45, 0.9);
+  border-bottom: 1px solid rgba(70, 100, 255, 0.2);
+}
+
+.terminal-dots {
+  display: flex;
+  gap: 0.5rem;
+  margin-right: 0.8rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+
+.terminal-title {
+  font-size: 0.9rem;
+  color: #a0a0c0;
+  font-family: 'JetBrains Mono', monospace;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.terminal-body {
+  padding: 1.5rem 1.2rem;
+  font-family: 'JetBrains Mono', monospace;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.terminal-content {
+  width: 100%;
+}
+
+.terminal-content h3 {
+  color: #e0e0ff;
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.terminal-content p {
+  color: #a0a0c0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+.module-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4cc9f0;
+  margin-bottom: 0.2rem;
+  font-family: 'JetBrains Mono', monospace;
+  text-shadow: 0 0 10px rgba(76, 201, 240, 0.5);
+}
+
+.terminal-prompt {
+  color: #72f07a;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.card-1 .module-number { color: #4cc9f0; text-shadow: 0 0 10px rgba(76, 201, 240, 0.5); }
+.card-2 .module-number { color: #f72585; text-shadow: 0 0 10px rgba(247, 37, 133, 0.5); }
+.card-3 .module-number { color: #4895ef; text-shadow: 0 0 10px rgba(72, 149, 239, 0.5); }
+.card-4 .module-number { color: #7209b7; text-shadow: 0 0 10px rgba(114, 9, 183, 0.5); }
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Scanline effect */
+.heroBanner_terminal::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: linear-gradient(to bottom,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.1) 100%);
+  animation: scanline 8s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes scanline {
+  0% { top: 0; }
+  100% { top: 100%; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .terminal-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heroBanner_terminal .hero__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .terminal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroBanner_terminal {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .heroBanner_terminal .hero__title {
+    font-size: 1.8rem;
+  }
+
+  .heroBanner_terminal .hero__subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .terminal-body {
+    padding: 1rem 0.8rem;
+  }
+}
+
+/* Book Overview Section */
+.features_cAfv {
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+}
+
+html[data-theme='dark'] .features_cAfv {
+  background-color: #0d1117;
+}
+
+.book-overview {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html[data-theme='dark'] .book-overview {
+  color: #c9d1d9;
+}
+
+.features_cAfv h2 {
+  color: #2563eb;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+html[data-theme='dark'] .features_cAfv h2 {
+  color: #60a5fa;
+}
+
+.features_cAfv h3 {
+  color: #1d4ed8;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+html[data-theme='dark'] .features_cAfv h3 {
+  color: #3b82f6;
+}
+
+.book-objectives {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.book-objectives li {
+  margin-bottom: 0.5rem;
+}
+
+html[data-theme='dark'] .book-objectives {
+  color: #c9d1d9;
+}

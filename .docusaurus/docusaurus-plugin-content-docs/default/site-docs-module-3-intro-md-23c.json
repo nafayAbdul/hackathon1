@@ -1,0 +1,28 @@
+{
+  "id": "module3/intro",
+  "title": "Module 3 Introduction",
+  "description": "Welcome to Module 3 of the Physical AI and Humanoid Robotics textbook. This module focuses on creating advanced AI-robot brains using NVIDIA's Isaac Platform. You'll learn to master Isaac Sim 2025.2, implement hardware-accelerated perception with Isaac ROS 2, integrate navigation and manipulation systems, train reinforcement learning policies with Isaac Lab, and execute sim-to-real transfer.",
+  "source": "@site/docs/module3/intro.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/intro",
+  "permalink": "/physical-ai-book/docs/module3/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Module 3 Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 10 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter10_exercises"
+  },
+  "next": {
+    "title": "Chapter 11: Isaac Sim 2025 – From Installation to Photorealistic Humanoid Simulation",
+    "permalink": "/physical-ai-book/docs/module3/chapter11_simulation_2025"
+  }
+}

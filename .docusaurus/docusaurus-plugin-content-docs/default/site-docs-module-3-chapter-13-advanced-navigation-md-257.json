@@ -1,0 +1,27 @@
+{
+  "id": "module3/chapter13_advanced_navigation",
+  "title": "Chapter 13: Advanced Navigation & Manipulation for Bipedal Humanoids (Nav2 + MoveIt 2 + Isaac)",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3/chapter13_advanced_navigation.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/chapter13_advanced_navigation",
+  "permalink": "/physical-ai-book/docs/module3/chapter13_advanced_navigation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/chapter13_advanced_navigation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 12: Isaac ROS 2 – Hardware-Accelerated Perception with NITROS and GEMs",
+    "permalink": "/physical-ai-book/docs/module3/chapter12_ros2_fundamentals"
+  },
+  "next": {
+    "title": "Chapter 14: Reinforcement Learning at Scale with Isaac Gym, Isaac Orbit, and Isaac Lab",
+    "permalink": "/physical-ai-book/docs/module3/chapter14_reinforcement_learning"
+  }
+}

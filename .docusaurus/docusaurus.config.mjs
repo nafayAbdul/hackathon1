@@ -9,8 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-book-url.github.io",
   "baseUrl": "/physical-ai-book/",
-  "organizationName": "yourname",
-  "projectName": "physical-ai-book",
+  "organizationName": "Abdul-Nafay-331",
+  "projectName": "Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course",
   "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\hackthonQ3\\hacathon\\pysical_ai\\sidebars.js",
-          "editUrl": "https://github.com/yourname/physical-ai-book/tree/main/docs/"
+          "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/"
         },
         "blog": false,
         "theme": {
@@ -49,10 +49,10 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Module 1"
+          "label": "Modules"
         },
         {
-          "href": "https://github.com/yourname/physical-ai-book",
+          "href": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course",
           "label": "GitHub",
           "position": "right"
         }
@@ -68,6 +68,18 @@ export default {
             {
               "label": "Module 1: The Robotic Nervous System",
               "to": "/docs/module1/intro"
+            },
+            {
+              "label": "Module 2: Simulation Integration – The Digital Twin",
+              "to": "/docs/module2/intro"
+            },
+            {
+              "label": "Module 3: Simulation & Reinforcement Learning",
+              "to": "/docs/module3/intro"
+            },
+            {
+              "label": "Module 4: Vision-Language-Action Models",
+              "to": "/docs/module4/intro"
             }
           ]
         },
@@ -93,7 +105,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/yourname/physical-ai-book"
+              "href": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course"
             }
           ]
         }

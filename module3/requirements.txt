@@ -1,0 +1,20 @@
+# Isaac Sim 2025.2.1 requirements
+isaacsim==2025.2.1
+
+# Isaac ROS 2.2.0 requirements
+isaac-ros-point-cloud-transport==2.2.0
+isaac-ros-visual-slam==2.2.0
+isaac-ros-augment-image==2.2.0
+
+# Isaac Lab 1.3 requirements
+isaac-lab==1.3.0
+rsl-rl==1.0.2
+
+# General dependencies
+torch==2.3.0
+numpy==1.24.3
+gym==0.21.0
+onnx==1.15.0
+onnxruntime==1.17.0
+opencv-python==4.8.0.74
+pynvml==11.5.0

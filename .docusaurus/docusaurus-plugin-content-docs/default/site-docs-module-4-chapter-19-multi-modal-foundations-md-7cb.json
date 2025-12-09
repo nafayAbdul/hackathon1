@@ -1,0 +1,24 @@
+{
+  "id": "module4/chapter19_multi_modal_foundations",
+  "title": "Chapter 19: Real-World Deployment – Perception, Execution, and Safety",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4/chapter19_multi_modal_foundations.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter19_multi_modal_foundations",
+  "permalink": "/physical-ai-book/docs/module4/chapter19_multi_modal_foundations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter19_multi_modal_foundations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 18 Exercises: Voice-to-Action Pipeline",
+    "permalink": "/physical-ai-book/docs/module4/chapter18_exercises"
+  },
+  "next": {
+    "title": "Chapter 19 Exercises: Real-World Deployment",
+    "permalink": "/physical-ai-book/docs/module4/chapter19_exercises"
+  }
+}

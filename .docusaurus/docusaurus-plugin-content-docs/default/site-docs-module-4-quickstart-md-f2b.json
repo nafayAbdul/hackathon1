@@ -1,0 +1,18 @@
+{
+  "id": "module4/quickstart",
+  "title": "Module 4 Quickstart Guide",
+  "description": "Overview",
+  "source": "@site/docs/module4/quickstart.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/quickstart",
+  "permalink": "/physical-ai-book/docs/module4/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/quickstart.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  }
+}

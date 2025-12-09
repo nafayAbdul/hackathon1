@@ -1,0 +1,24 @@
+{
+  "id": "module4/chapter18_exercises",
+  "title": "Chapter 18 Exercises: Voice-to-Action Pipeline",
+  "description": "Exercise 1: Speech Recognition Integration",
+  "source": "@site/docs/module4/chapter18_exercises.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter18_exercises",
+  "permalink": "/physical-ai-book/docs/module4/chapter18_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter18_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 18: Voice-to-Action Pipeline – Speech Recognition and Natural Language Understanding",
+    "permalink": "/physical-ai-book/docs/module4/chapter18_voice_action_pipeline"
+  },
+  "next": {
+    "title": "Chapter 19: Real-World Deployment – Perception, Execution, and Safety",
+    "permalink": "/physical-ai-book/docs/module4/chapter19_multi_modal_foundations"
+  }
+}

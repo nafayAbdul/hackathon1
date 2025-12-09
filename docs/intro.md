@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ Welcome to the comprehensive guide on Physical AI and Humanoid Robotics. This bo
 This book is organized into four comprehensive modules that progressively build your understanding of embodied intelligence:
 
 - **Module 1: The Robotic Nervous System** - Covers ROS 2 fundamentals and AI integration
-- **Module 2: Digital Twin & Simulation** - Focuses on simulation and digital twin technologies  
+- **Module 2: Digital Twin & Simulation** - Focuses on simulation and digital twin technologies
 - **Module 3: AI-Robot Brain** - Explores high-level AI integration with robot control
 - **Module 4: Vision-Language-Action Integration** - Combines perception, cognition, and action in VLA systems
 
@@ -43,5 +43,10 @@ Throughout this book, we use the "athena" humanoid robot model - a 23-DoF simpli
 ### Getting Started
 
 If you're ready to dive in, start with [Module 1: The Robotic Nervous System](./module1/intro.md), where we'll explore the fundamental differences between digital AI and embodied intelligence.
+
+<p className="text--center margin-top--lg">
+  <a class="button button--secondary button--lg" href="/docs/module2/intro">Read Module 2: Digital Twin & Simulation</a>
+</p>
+
 
 

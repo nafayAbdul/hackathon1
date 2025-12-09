@@ -1,0 +1,37 @@
+{
+  "name": "Module 4 - Vision-Language-Action Models",
+  "build": {
+    "dockerfile": "./Dockerfile.module4",
+    "context": "../.."
+  },
+  "runArgs": [
+    "--gpus",
+    "all",
+    "--env",
+    "NVIDIA_DRIVER_CAPABILITIES=all",
+    "--shm-size=16gb"
+  ],
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached",
+    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-iot.vscode-ros",
+        "nvidia.nsight-vscode-edition",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "python.terminal.activateEnvironment": true,
+        "terminal.integrated.gpuAcceleration": "on"
+      }
+    }
+  },
+  "postCreateCommand": "pip install -e .",
+  "remoteUser": "root"
+}

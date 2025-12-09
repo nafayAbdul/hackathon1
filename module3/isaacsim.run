@@ -1,0 +1,69 @@
+#!/bin/bash
+# isaacsim.run - The legendary one-liner to launch the full autonomous humanoid
+
+# This script launches a complete pipeline:
+# 1. Starts Isaac Sim with photorealistic "athena" humanoid
+# 2. Initializes Isaac ROS 2 perception stack
+# 3. Loads trained walking policy
+# 4. Begins autonomous operation in apartment environment
+
+echo "🚀 Launching Athena autonomous humanoid system..."
+
+# Check prerequisites
+if [ ! command -v python3 &> /dev/null ]; then
+    echo "❌ Python3 is required but not installed."
+    exit 1
+fi
+
+if [ ! command -v docker &> /dev/null ]; then
+    echo "⚠️  Docker is recommended for Isaac ROS 2 components"
+fi
+
+# Set up environment variables
+export ISAACSIM_PATH="${ISAACSIM_PATH:-/isaac-sim}"
+export ISAAC_ROS_WS="${ISAAC_ROS_WS:-/opt/isaac-ros-dev}"
+export CUDA_VISIBLE_DEVICES=0
+
+# Launch Isaac Sim with the "athena" humanoid in photorealistic apartment
+echo "🔧 Starting Isaac Sim 2025.2 with Athena humanoid..."
+nohup python3 -m omni.isaac.sim.python.gym --no-window --num_envs 1 \
+  --headless --summary-path /tmp/isaac_sim_summary.json \
+  --config "athena_apartment_config.yaml" &>/tmp/isaac_sim.log &
+
+ISAACSIM_PID=$!
+
+# Wait for Isaac Sim to initialize
+sleep 10
+
+# Launch Isaac ROS 2 perception stack
+echo "👁️ Starting Isaac ROS 2 perception stack..."
+source /opt/ros/humble/setup.bash
+source $ISAAC_ROS_WS/install/setup.bash
+
+ros2 launch athena_perception athena_perception.launch.py &>/tmp/isaac_ros.log &
+ROS_PID=$!
+
+# Launch trained policy controller
+echo "🤖 Starting trained policy controller..."
+source $ISAAC_ROS_WS/install/setup.bash
+python3 -m athena_policy_controller \
+  --policy-path /models/athena_walking_policy.onnx \
+  --control-freq 200 \
+  --sensor-fusion &>/tmp/policy_controller.log &
+CTRL_PID=$!
+
+# Launch navigation stack
+echo "🧭 Starting navigation stack..."
+ros2 launch athena_nav2 athena_nav2.launch.py &>/tmp/nav2.log &
+NAV_PID=$!
+
+# Print success message with PIDs
+echo "✅ Athena autonomous system is now running!"
+echo "📊 Process IDs:"
+echo "   Isaac Sim: $ISAACSIM_PID"
+echo "   ROS Stack: $ROS_PID" 
+echo "   Controller: $CTRL_PID"
+echo "   Navigation: $NAV_PID"
+echo ""
+echo "🔍 Check logs at /tmp/*.log for details"
+echo "🚪 The autonomous humanoid is now operational in the photorealistic apartment!"

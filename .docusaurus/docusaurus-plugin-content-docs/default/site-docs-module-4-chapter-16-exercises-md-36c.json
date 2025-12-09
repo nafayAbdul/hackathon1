@@ -1,0 +1,24 @@
+{
+  "id": "module4/chapter16_exercises",
+  "title": "Chapter 16 Exercises: OpenVLA Fundamentals",
+  "description": "Exercise 1: Basic VLA Inference",
+  "source": "@site/docs/module4/chapter16_exercises.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter16_exercises",
+  "permalink": "/physical-ai-book/docs/module4/chapter16_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter16_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 16: OpenVLA Fundamentals – Vision-Based Action Generation",
+    "permalink": "/physical-ai-book/docs/module4/chapter16_vla_revolution"
+  },
+  "next": {
+    "title": "Chapter 17: Language Grounding in VLA Models – From Text to Action",
+    "permalink": "/physical-ai-book/docs/module4/chapter17_fine_tuning"
+  }
+}

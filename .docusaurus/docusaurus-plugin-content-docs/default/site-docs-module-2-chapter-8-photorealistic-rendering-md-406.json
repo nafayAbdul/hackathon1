@@ -1,0 +1,24 @@
+{
+  "id": "module2/chapter8_photorealistic_rendering",
+  "title": "Chapter 8: Photorealistic Rendering with Unity and Unreal for Human-Robot Interaction",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2/chapter8_photorealistic_rendering.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter8_photorealistic_rendering",
+  "permalink": "/physical-ai-book/docs/module2/chapter8_photorealistic_rendering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter8_photorealistic_rendering.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter7_exercises"
+  },
+  "next": {
+    "title": "Chapter 8 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter8_exercises"
+  }
+}

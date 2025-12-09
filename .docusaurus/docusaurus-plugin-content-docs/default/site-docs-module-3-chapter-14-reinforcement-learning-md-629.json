@@ -1,0 +1,27 @@
+{
+  "id": "module3/chapter14_reinforcement_learning",
+  "title": "Chapter 14: Reinforcement Learning at Scale with Isaac Gym, Isaac Orbit, and Isaac Lab",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3/chapter14_reinforcement_learning.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/chapter14_reinforcement_learning",
+  "permalink": "/physical-ai-book/docs/module3/chapter14_reinforcement_learning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/chapter14_reinforcement_learning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 13: Advanced Navigation & Manipulation for Bipedal Humanoids (Nav2 + MoveIt 2 + Isaac)",
+    "permalink": "/physical-ai-book/docs/module3/chapter13_advanced_navigation"
+  },
+  "next": {
+    "title": "Chapter 15: Sim-to-Real Transfer Cookbook – Making Athena Walk on Real Hardware",
+    "permalink": "/physical-ai-book/docs/module3/chapter15_sim_to_real_transfer"
+  }
+}

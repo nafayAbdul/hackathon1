@@ -1,0 +1,28 @@
+{
+  "id": "module3/summary",
+  "title": "Module 3 Summary",
+  "description": "Module 3 has provided you with comprehensive knowledge of NVIDIA's Isaac Platform for creating advanced AI-robot brain systems. You've learned to:",
+  "source": "@site/docs/module3/summary.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/summary",
+  "permalink": "/physical-ai-book/docs/module3/summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Module 3 Summary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 15: Sim-to-Real Transfer Cookbook – Making Athena Walk on Real Hardware",
+    "permalink": "/physical-ai-book/docs/module3/chapter15_sim_to_real_transfer"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action Models – From Voice to Physical Action",
+    "permalink": "/physical-ai-book/docs/module4/intro"
+  }
+}

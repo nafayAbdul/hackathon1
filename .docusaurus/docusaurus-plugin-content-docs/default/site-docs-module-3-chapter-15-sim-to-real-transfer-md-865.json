@@ -1,0 +1,27 @@
+{
+  "id": "module3/chapter15_sim_to_real_transfer",
+  "title": "Chapter 15: Sim-to-Real Transfer Cookbook – Making Athena Walk on Real Hardware",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3/chapter15_sim_to_real_transfer.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/chapter15_sim_to_real_transfer",
+  "permalink": "/physical-ai-book/docs/module3/chapter15_sim_to_real_transfer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/chapter15_sim_to_real_transfer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 14: Reinforcement Learning at Scale with Isaac Gym, Isaac Orbit, and Isaac Lab",
+    "permalink": "/physical-ai-book/docs/module3/chapter14_reinforcement_learning"
+  },
+  "next": {
+    "title": "Module 3 Summary",
+    "permalink": "/physical-ai-book/docs/module3/summary"
+  }
+}

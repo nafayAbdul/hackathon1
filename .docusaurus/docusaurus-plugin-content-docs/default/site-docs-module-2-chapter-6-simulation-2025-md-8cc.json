@@ -1,0 +1,24 @@
+{
+  "id": "module2/chapter6_simulation_2025",
+  "title": "Chapter 6: Simulation in 2025 – Choosing and Mastering Your Physics Engine",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2/chapter6_simulation_2025.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter6_simulation_2025",
+  "permalink": "/physical-ai-book/docs/module2/chapter6_simulation_2025",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter6_simulation_2025.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2 Introduction",
+    "permalink": "/physical-ai-book/docs/module2/intro"
+  },
+  "next": {
+    "title": "Chapter 6 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter6_exercises"
+  }
+}

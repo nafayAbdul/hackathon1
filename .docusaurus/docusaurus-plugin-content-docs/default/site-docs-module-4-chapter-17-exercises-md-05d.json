@@ -1,0 +1,24 @@
+{
+  "id": "module4/chapter17_exercises",
+  "title": "Chapter 17 Exercises: Language Grounding in VLA Models",
+  "description": "Exercise 1: Language Model Integration",
+  "source": "@site/docs/module4/chapter17_exercises.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter17_exercises",
+  "permalink": "/physical-ai-book/docs/module4/chapter17_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter17_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 17: Language Grounding in VLA Models – From Text to Action",
+    "permalink": "/physical-ai-book/docs/module4/chapter17_fine_tuning"
+  },
+  "next": {
+    "title": "Chapter 18: Voice-to-Action Pipeline – Speech Recognition and Natural Language Understanding",
+    "permalink": "/physical-ai-book/docs/module4/chapter18_voice_action_pipeline"
+  }
+}

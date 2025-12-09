@@ -1,0 +1,27 @@
+{
+  "id": "module3/chapter11_simulation_2025",
+  "title": "Chapter 11: Isaac Sim 2025 – From Installation to Photorealistic Humanoid Simulation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module3/chapter11_simulation_2025.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/chapter11_simulation_2025",
+  "permalink": "/physical-ai-book/docs/module3/chapter11_simulation_2025",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module3/chapter11_simulation_2025.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3 Introduction",
+    "permalink": "/physical-ai-book/docs/module3/intro"
+  },
+  "next": {
+    "title": "Chapter 12: Isaac ROS 2 – Hardware-Accelerated Perception with NITROS and GEMs",
+    "permalink": "/physical-ai-book/docs/module3/chapter12_ros2_fundamentals"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "module2/chapter9_domain_randomization",
+  "title": "Chapter 9: Domain Randomization and Large-Scale Synthetic Data Generation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module2/chapter9_domain_randomization.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter9_domain_randomization",
+  "permalink": "/physical-ai-book/docs/module2/chapter9_domain_randomization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter9_domain_randomization.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter8_exercises"
+  },
+  "next": {
+    "title": "Chapter 9 Exercises",
+    "permalink": "/physical-ai-book/docs/module2/chapter9_exercises"
+  }
+}

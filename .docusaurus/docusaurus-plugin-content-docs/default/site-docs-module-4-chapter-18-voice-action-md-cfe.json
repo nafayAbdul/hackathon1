@@ -1,0 +1,18 @@
+{
+  "id": "module4/chapter18_voice_action",
+  "title": "Chapter 18: The Complete Voice → Action Pipeline (Whisper → VLA → ROS 2)",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4/chapter18_voice_action.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter18_voice_action",
+  "permalink": "/physical-ai-book/docs/module4/chapter18_voice_action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter18_voice_action.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

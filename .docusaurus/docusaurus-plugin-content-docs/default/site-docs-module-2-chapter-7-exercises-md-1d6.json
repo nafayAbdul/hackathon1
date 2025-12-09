@@ -1,0 +1,24 @@
+{
+  "id": "module2/chapter7_exercises",
+  "title": "Chapter 7 Exercises",
+  "description": "Exercise 7.1: Temperature Drift Simulation",
+  "source": "@site/docs/module2/chapter7_exercises.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter7_exercises",
+  "permalink": "/physical-ai-book/docs/module2/chapter7_exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/chapter7_exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7: Realistic Sensors in Simulation – Depth, LiDAR, IMU, and Contact",
+    "permalink": "/physical-ai-book/docs/module2/chapter7_realistic_sensors"
+  },
+  "next": {
+    "title": "Chapter 8: Photorealistic Rendering with Unity and Unreal for Human-Robot Interaction",
+    "permalink": "/physical-ai-book/docs/module2/chapter8_photorealistic_rendering"
+  }
+}

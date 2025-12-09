@@ -1,0 +1,18 @@
+{
+  "id": "module4/chapter17_vla_finetuning",
+  "title": "Chapter 17: Building and Fine-tuning Your Own Vision-Language-Action Model",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module4/chapter17_vla_finetuning.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter17_vla_finetuning",
+  "permalink": "/physical-ai-book/docs/module4/chapter17_vla_finetuning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module4/chapter17_vla_finetuning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

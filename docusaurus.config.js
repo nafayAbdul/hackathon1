@@ -64,7 +64,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Module 1',
+            label: 'Modules',
           },
           {
             href: 'https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course',
@@ -82,6 +82,18 @@ const config = {
               {
                 label: 'Module 1: The Robotic Nervous System',
                 to: '/docs/module1/intro',
+              },
+              {
+                label: 'Module 2: Simulation Integration – The Digital Twin',
+                to: '/docs/module2/intro',
+              },
+              {
+                label: 'Module 3: Simulation & Reinforcement Learning',
+                to: '/docs/module3/intro',
+              },
+              {
+                label: 'Module 4: Vision-Language-Action Models',
+                to: '/docs/module4/intro',
               },
             ],
           },

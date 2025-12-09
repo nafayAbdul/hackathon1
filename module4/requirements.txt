@@ -1,0 +1,37 @@
+torch==2.6.0
+transformers==4.46.0
+datasets==3.2.0
+accelerate==0.36.0
+peft==0.13.0
+bitsandbytes==0.45.0
+sentence-transformers==3.5.0
+pytorch-lightning==2.6.0
+deepspeed==0.16.0
+openai==1.55.0
+whisper==20241206
+torchvision==0.19.0
+torchaudio==2.6.0
+numpy==2.2.0
+scipy==1.16.0
+matplotlib==3.10.0
+openvla @ git+https://github.com/openvla/openvla.git
+pyaudio==0.2.11
+SpeechRecognition==3.10.0
+sounddevice==0.4.6
+datasets==3.2.0
+evaluate==0.4.3
+huggingface_hub==0.26.2
+accelerate==0.36.0
+optimum==1.22.0
+onnx==1.17.0
+onnxruntime==1.20.1
+opencv-python==4.10.0.84
+Pillow==11.0.0
+requests==2.32.3
+tqdm==4.66.5
+psutil==6.1.0
+plotly==5.27.0
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+ros2-interfaces==0.0.0
+# Isaac ROS packages will be installed separately in the image

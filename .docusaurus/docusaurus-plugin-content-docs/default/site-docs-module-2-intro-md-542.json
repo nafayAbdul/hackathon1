@@ -1,0 +1,28 @@
+{
+  "id": "module2/intro",
+  "title": "Module 2 Introduction",
+  "description": "Welcome to Module 2 of the Physical AI and Humanoid Robotics textbook. This module focuses on creating digital twins of robotic systems through advanced simulation techniques. You'll learn to master physics engines, implement realistic sensors, create photorealistic rendering, and generate synthetic datasets for AI training.",
+  "source": "@site/docs/module2/intro.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/intro",
+  "permalink": "/physical-ai-book/docs/module2/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Abdul-Nafay-331/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/tree/main/docs/docs/module2/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Module 2 Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5 Exercises: Building Your First ROS 2 Humanoid Package",
+    "permalink": "/physical-ai-book/docs/chapter5_exercises"
+  },
+  "next": {
+    "title": "Chapter 6: Simulation in 2025 – Choosing and Mastering Your Physics Engine",
+    "permalink": "/physical-ai-book/docs/module2/chapter6_simulation_2025"
+  }
+}
