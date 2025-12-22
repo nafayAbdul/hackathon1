@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from '@docusaurus/router';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import './ChatWidget.css';
 
 const ChatWidget = () => {
@@ -10,6 +11,8 @@ const ChatWidget = () => {
   const [inputMessage, setInputMessage] = useState('');
   const messagesEndRef = useRef(null);
   const location = useLocation();
+  const { siteConfig } = useDocusaurusContext();
+  const API_BASE = siteConfig.customFields.apiBaseUrl || 'https://nafaywork5523-physical-chatbot.hf.space/api';
 
   // Initialize chat session on component mount
   useEffect(() => {
@@ -17,9 +20,6 @@ const ChatWidget = () => {
       try {
         // Check if we have a session ID in localStorage
         const storedSessionId = localStorage.getItem('chatSessionId');
-
-        // Use environment variable for API URL or default to localhost
-        const API_BASE = process.env.REACT_APP_API_URL || 'https://nafaywork5523-physical-chatbot.hf.space/api';
 
         if (storedSessionId) {
           // Use existing session and load its history
@@ -94,9 +94,6 @@ const ChatWidget = () => {
     setIsLoading(true);
     const messageToSend = inputMessage;
     setInputMessage(''); // Clear input immediately
-
-    // Use environment variable for API URL or default to Hugging Face Space
-    const API_BASE = process.env.REACT_APP_API_URL || 'https://nafaywork5523-physical-chatbot.hf.space/api';
 
     try {
       // Get highlighted text if any

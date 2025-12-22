@@ -28,6 +28,11 @@ const config = {
     locales: ['en'],
   },
 
+  customFields: {
+    // This correctly reads the variable during the Vercel build process
+    apiBaseUrl: process.env.REACT_APP_API_URL || 'https://nafaywork5523-physical-chatbot.hf.space/api',
+  },
+
   presets: [
     [
       'classic',
