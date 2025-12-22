@@ -26,7 +26,7 @@ app.middleware("http")(rate_limit_middleware)
 
 @app.get("/")
 def read_root():
-    return {"message": "RAG Chatbot API is running"}
+    return {"status": "Server is running!"}
 
 @app.get("/health")
 def health_check():

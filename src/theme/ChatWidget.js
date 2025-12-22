@@ -12,7 +12,10 @@ const ChatWidget = () => {
   const messagesEndRef = useRef(null);
   const location = useLocation();
   const { siteConfig } = useDocusaurusContext();
-  const API_BASE = siteConfig.customFields.apiBaseUrl || 'https://nafaywork5523-physical-chatbot.hf.space/api';
+  const API_BASE = siteConfig.customFields.apiBaseUrl ||
+                  (typeof window !== 'undefined' ?
+                   window.location.origin + '/api' :
+                   'http://localhost:8000/api');
 
   // Initialize chat session on component mount
   useEffect(() => {
