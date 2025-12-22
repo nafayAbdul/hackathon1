@@ -80,7 +80,7 @@ const HeroSection = () => {
               Download Sample Chapter <i className="fas fa-arrow-right ml-2"></i>
             </a>
             <a href="#" className="cta-button cta-button--secondary">
-              Join Waitlist
+              About Us
             </a>
           </div>
         </div>

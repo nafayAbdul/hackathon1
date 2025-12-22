@@ -1,21 +1,64 @@
 /* Custom Navbar styles for Physical AI & Humanoid Robotics site */
 
+/* Keyframe animations */
+@keyframes pulseLogo {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(14, 165, 233, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(14, 165, 233, 0.6), 0 0 20px rgba(20, 184, 166, 0.4);
+  }
+}
+
+@keyframes menuSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 25px 0; /* Reduced padding to better contain elements */
+  padding: 25px 0;
   backdrop-filter: blur(12px);
   background: rgba(10, 15, 29, 0.85);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: translateY(0);
+  animation: slideIn 0.6s ease-out;
 }
 
 .navbar.scrolled {
-  padding: 15px 0; /* Less padding when scrolled */
+  padding: 15px 0;
   background: rgba(10, 15, 29, 0.95);
   backdrop-filter: blur(20px);
   transform: translateY(-3px);
@@ -34,29 +77,32 @@
 .navbar__items {
   display: flex;
   align-items: center;
-  gap: 2rem; /* Reduced gap to better contain elements */
+  gap: 2rem;
+  animation: menuSlideDown 0.5s ease-out 0.2s both;
 }
 
 .navbar__link {
   color: var(--light);
   text-decoration: none;
-  font-weight: 600; /* Balanced font weight */
+  font-weight: 600;
   position: relative;
-  padding: 6px 0; /* Reduced padding */
+  padding: 6px 0;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  font-size: 1.2rem; /* Reduced font size to fit properly */
+  font-size: 1.2rem;
   display: inline-block;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar__logo {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.8rem; /* Reduced logo size to fit properly */
+  font-size: 1.8rem;
   font-weight: 700;
   color: white;
   display: flex;
   align-items: center;
-  gap: 12px; /* Reduced gap between logo elements */
-  animation: pulseLogo 2s infinite;
+  gap: 12px;
+  animation: pulseLogo 2s infinite, glow 3s ease-in-out infinite alternate;
 }
 
 .navbar__logo-text {
@@ -70,6 +116,7 @@
 .navbar__link:hover {
   color: var(--primary);
   transform: translateY(-2px);
+  animation: bounce 0.6s ease-in-out;
 }
 
 .navbar__link::after {
@@ -88,6 +135,43 @@
   width: 100%;
 }
 
+/* Hamburger menu animation */
+.navbar__toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar__toggle span {
+  width: 100%;
+  height: 3px;
+  background: var(--light);
+  border-radius: 3px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: center;
+}
+
+/* Hamburger to X animation */
+.navbar__toggle.hamburger-open span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.navbar__toggle.hamburger-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar__toggle.hamburger-open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
 /* Mobile menu overlay - full-width overlay behavior */
 .mobile-menu-overlay {
   position: fixed;
@@ -95,11 +179,19 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 15, 29, 0.95); /* var(--darker) with high opacity */
+  background-color: rgba(10, 15, 29, 0.95);
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.mobile-menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .mobile-menu-content {
@@ -114,6 +206,14 @@
   align-items: center;
   justify-content: flex-start;
   padding-top: 5rem;
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.mobile-menu-overlay.active .mobile-menu-content {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .mobile-menu-content ul {
@@ -127,7 +227,16 @@
 .mobile-menu-content li {
   margin: 1.5rem 0;
   text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 0.4s ease-out forwards;
 }
+
+.mobile-menu-content li:nth-child(1) { animation-delay: 0.1s; }
+.mobile-menu-content li:nth-child(2) { animation-delay: 0.2s; }
+.mobile-menu-content li:nth-child(3) { animation-delay: 0.3s; }
+.mobile-menu-content li:nth-child(4) { animation-delay: 0.4s; }
+.mobile-menu-content li:nth-child(5) { animation-delay: 0.5s; }
 
 .mobile-menu-content a {
   color: var(--light);
@@ -137,10 +246,26 @@
   display: block;
   padding: 0.5rem;
   transition: color 0.3s ease;
+  position: relative;
+}
+
+.mobile-menu-content a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
 }
 
 .mobile-menu-content a:hover {
   color: var(--primary);
+}
+
+.mobile-menu-content a:hover::after {
+  width: 100%;
 }
 
 .mobile-close-btn {
@@ -159,8 +284,22 @@
   justify-content: center;
   border-radius: 50%;
   transition: background-color 0.3s ease;
+  animation: bounce 2s infinite;
 }
 
 .mobile-close-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Scroll progress bar animation */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  z-index: 1002;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.7);
+  animation: glow 2s infinite alternate;
 }

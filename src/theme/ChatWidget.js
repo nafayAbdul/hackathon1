@@ -18,13 +18,16 @@ const ChatWidget = () => {
         // Check if we have a session ID in localStorage
         const storedSessionId = localStorage.getItem('chatSessionId');
 
+        // Use environment variable for API URL or default to localhost
+        const API_BASE = process.env.REACT_APP_API_URL || 'https://nafaywork5523-physical-chatbot.hf.space/api';
+
         if (storedSessionId) {
           // Use existing session and load its history
           setSessionId(storedSessionId);
 
           // Load the chat history
           try {
-            const response = await fetch('http://localhost:8000/api/chat/' + storedSessionId + '/history');
+            const response = await fetch(`${API_BASE}/chat/${storedSessionId}/history`);
             const data = await response.json();
 
             // Format messages for the UI
@@ -37,7 +40,7 @@ const ChatWidget = () => {
           } catch (historyError) {
             console.error('Error loading chat history:', historyError);
             // Start a new session if history loading fails
-            const newSessionResponse = await fetch('http://localhost:8000/api/chat/start', {
+            const newSessionResponse = await fetch(`${API_BASE}/chat/start`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -51,7 +54,7 @@ const ChatWidget = () => {
           }
         } else {
           // Start a new session
-          const response = await fetch('http://localhost:8000/api/chat/start', {
+          const response = await fetch(`${API_BASE}/chat/start`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -92,11 +95,14 @@ const ChatWidget = () => {
     const messageToSend = inputMessage;
     setInputMessage(''); // Clear input immediately
 
+    // Use environment variable for API URL or default to Hugging Face Space
+    const API_BASE = process.env.REACT_APP_API_URL || 'https://nafaywork5523-physical-chatbot.hf.space/api';
+
     try {
       // Get highlighted text if any
       const highlightedText = window.getSelection().toString().trim();
 
-      const response = await fetch(`http://localhost:8000/api/chat/${sessionId}/message`, {
+      const response = await fetch(`${API_BASE}/chat/${sessionId}/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

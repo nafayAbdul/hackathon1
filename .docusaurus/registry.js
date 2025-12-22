@@ -1,4 +1,5 @@
 export default {
+  "__comp---site-src-pages-about-js-779-319": [() => import(/* webpackChunkName: "__comp---site-src-pages-about-js-779-319" */ "@site/src/pages/about.js"), "@site/src/pages/about.js", require.resolveWeak("@site/src/pages/about.js")],
   "__comp---site-src-pages-index-jsc-4-f-f99": [() => import(/* webpackChunkName: "__comp---site-src-pages-index-jsc-4-f-f99" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
   "__comp---theme-debug-config-23-a-2ff": [() => import(/* webpackChunkName: "__comp---theme-debug-config-23-a-2ff" */ "@theme/DebugConfig"), "@theme/DebugConfig", require.resolveWeak("@theme/DebugConfig")],
   "__comp---theme-debug-contentba-8-ce7": [() => import(/* webpackChunkName: "__comp---theme-debug-contentba-8-ce7" */ "@theme/DebugContent"), "@theme/DebugContent", require.resolveWeak("@theme/DebugContent")],

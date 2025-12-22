@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import OriginalNavbar from '@theme-original/Navbar';
 import './Navbar.css';
 
 const Navbar = (props) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const mobileMenuRef = useRef(null);
 
   const toggleMobileMenu = () => {
     setMobileOpen(!mobileOpen);
@@ -49,6 +50,23 @@ const Navbar = (props) => {
     }
   }, [scrolled]);
 
+  // Handle click outside mobile menu
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target)) {
+        setMobileOpen(false);
+      }
+    };
+
+    if (mobileOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [mobileOpen]);
+
   return (
     <>
       {/* Scroll Progress Bar */}
@@ -58,20 +76,22 @@ const Navbar = (props) => {
         <OriginalNavbar {...props} />
       </div>
       {/* Mobile menu overlay */}
-      {mobileOpen && (
-        <div className="mobile-menu-overlay" onClick={toggleMobileMenu}>
-          <div className="mobile-menu-content" onClick={(e) => e.stopPropagation()}>
-            <button className="mobile-close-btn" onClick={toggleMobileMenu}>×</button>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#technology">Technology</a></li>
-              <li><a href="#objectives">Objectives</a></li>
-              <li><a href="https://github.com/nafayAbdul/hackathon1">GitHub</a></li>
-            </ul>
-          </div>
+      <div
+        className={`mobile-menu-overlay ${mobileOpen ? 'active' : ''}`}
+        onClick={toggleMobileMenu}
+        ref={mobileMenuRef}
+      >
+        <div className="mobile-menu-content" onClick={(e) => e.stopPropagation()}>
+          <button className="mobile-close-btn" onClick={toggleMobileMenu}>×</button>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="https://github.com/nafayAbdul/hackathon1">GitHub</a></li>
+          </ul>
         </div>
-      )}
+      </div>
     </>
   );
 };

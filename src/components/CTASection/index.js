@@ -37,7 +37,7 @@ const CTASection = () => {
             <a href="#" className="cta-button" style={{padding: '16px 40px', fontSize: '1.2rem'}}>
               <i className="fas fa-book-open mr-2"></i>Get Early Access
             </a>
-            <a href="#" className="secondary-button cta-button" style={{padding: '16px 35px', fontSize: '1.2rem'}}>
+            <a href="https://discord.com/invite/ros" className="secondary-button cta-button" style={{padding: '16px 35px', fontSize: '1.2rem'}}>
               <i className="fab fa-discord mr-2"></i>Join Community
             </a>
           </div>

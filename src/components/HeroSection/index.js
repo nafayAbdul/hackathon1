@@ -103,8 +103,8 @@ const HeroSection = () => {
             <a href="/docs/module1/intro" className="cta-button">
               Start Reading <i className="fas fa-arrow-right ml-2"></i>
             </a>
-            <a href="#" className="cta-button cta-button--secondary">
-              Join Waitlist
+            <a href="/about" className="cta-button cta-button--secondary">
+              About Us
             </a>
           </div>
         </div>
