@@ -14,8 +14,8 @@ const ChatWidget = () => {
   const { siteConfig } = useDocusaurusContext();
   const API_BASE = siteConfig.customFields.apiBaseUrl ||
                   (typeof window !== 'undefined' ?
-                   window.location.origin + '/api' :
-                   'http://localhost:8000/api');
+                   window.location.origin :
+                   'http://localhost:8000');
 
   // Initialize chat session on component mount
   useEffect(() => {
@@ -30,7 +30,7 @@ const ChatWidget = () => {
 
           // Load the chat history
           try {
-            const response = await fetch(`${API_BASE}/chat/${storedSessionId}/history`);
+            const response = await fetch(`${API_BASE}/api/chat/${storedSessionId}/history`);
             const data = await response.json();
 
             // Format messages for the UI
@@ -43,7 +43,7 @@ const ChatWidget = () => {
           } catch (historyError) {
             console.error('Error loading chat history:', historyError);
             // Start a new session if history loading fails
-            const newSessionResponse = await fetch(`${API_BASE}/chat/start`, {
+            const newSessionResponse = await fetch(`${API_BASE}/api/chat/start`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ const ChatWidget = () => {
           }
         } else {
           // Start a new session
-          const response = await fetch(`${API_BASE}/chat/start`, {
+          const response = await fetch(`${API_BASE}/api/chat/start`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -102,7 +102,7 @@ const ChatWidget = () => {
       // Get highlighted text if any
       const highlightedText = window.getSelection().toString().trim();
 
-      const response = await fetch(`${API_BASE}/chat/${sessionId}/message`, {
+      const response = await fetch(`${API_BASE}/api/chat/${sessionId}/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

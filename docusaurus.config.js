@@ -32,8 +32,8 @@ const config = {
     // This correctly reads the variable during the Vercel build process
     apiBaseUrl: process.env.REACT_APP_API_URL ||
                 (process.env.HUGGINGFACE_SPACE_URL ?
-                 process.env.HUGGINGFACE_SPACE_URL + '/api' :
-                 'https://nafaywork5523-physical-chatbot.hf.space/api'),
+                 process.env.HUGGINGFACE_SPACE_URL :
+                 'https://nafaywork5523-physical-chatbot.hf.space'),
   },
 
   presets: [
