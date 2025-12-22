@@ -1,230 +1,277 @@
 {
-  "/docs-e16": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-f58": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs-f51": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/docs-449": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-e6d": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-b1f": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/chapter1_digital_to_embodied-a6f": {
-    "__comp": "17896441",
-    "content": "0620c96c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-1-digital-to-embodied-062-a70"
   },
   "/docs/chapter1_exercises-b82": {
-    "__comp": "17896441",
-    "content": "bf015e66"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-1-exercisesbf-0-950"
   },
   "/docs/chapter2_exercises-ceb": {
-    "__comp": "17896441",
-    "content": "433718f5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-2-exercises-433-e66"
   },
   "/docs/chapter2_ros2_fundamentals-6af": {
-    "__comp": "17896441",
-    "content": "f2b4f6fe"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-2-ros-2-fundamentalsf-2-b-99a"
   },
   "/docs/chapter3_exercises-12e": {
-    "__comp": "17896441",
-    "content": "e861f3d1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-3-exercisese-86-c93"
   },
   "/docs/chapter3_rclpy_ai_agents-3c9": {
-    "__comp": "17896441",
-    "content": "3a10234b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-3-rclpy-ai-agents-3-a-1-480"
   },
   "/docs/chapter4_exercises-e30": {
-    "__comp": "17896441",
-    "content": "0c3961dc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-4-exercises-0-c-3-a22"
   },
   "/docs/chapter4_urdf_xacro_mastery-e33": {
-    "__comp": "17896441",
-    "content": "4dd23cc1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-4-urdf-xacro-mastery-4-dd-11e"
   },
   "/docs/chapter5_complete_ros2_package-3ea": {
-    "__comp": "17896441",
-    "content": "f545ea8a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-5-complete-ros-2-packagef-54-5c1"
   },
   "/docs/chapter5_exercises-825": {
-    "__comp": "17896441",
-    "content": "1555c340"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chapter-5-exercises-155-ac7"
+  },
+  "/docs/chatbot-integration-d96": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chatbot-integration-307-e3f"
   },
   "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/module1_intro-cef": {
-    "__comp": "17896441",
-    "content": "b703c44e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-introb-70-905"
   },
   "/docs/module1/chapter1_digital_to_embodied-dbe": {
-    "__comp": "17896441",
-    "content": "34d2c73c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-1-digital-to-embodied-34-d-022"
   },
   "/docs/module1/chapter2_ros2_fundamentals-9fc": {
-    "__comp": "17896441",
-    "content": "a201702f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-2-ros-2-fundamentalsa-20-0ec"
   },
   "/docs/module1/chapter3_rclpy_ai_agents-0f2": {
-    "__comp": "17896441",
-    "content": "0bb1fc8b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-3-rclpy-ai-agents-0-bb-e59"
   },
   "/docs/module1/chapter4_urdf_xacro_mastery-490": {
-    "__comp": "17896441",
-    "content": "8cea46e2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-4-urdf-xacro-mastery-8-ce-d5b"
   },
   "/docs/module1/chapter5_complete_ros2_package-aca": {
-    "__comp": "17896441",
-    "content": "c1b77855"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-5-complete-ros-2-packagec-1-b-fef"
   },
   "/docs/module1/intro-f8b": {
-    "__comp": "17896441",
-    "content": "dd920d85"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-introdd-9-af4"
   },
   "/docs/module2/chapter10_closing_sim_loop-ebe": {
-    "__comp": "17896441",
-    "content": "0777fab7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-10-closing-sim-loop-077-0ac"
   },
   "/docs/module2/chapter10_exercises-8f8": {
-    "__comp": "17896441",
-    "content": "46347e48"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-10-exercises-463-b6c"
   },
   "/docs/module2/chapter6_exercises-a57": {
-    "__comp": "17896441",
-    "content": "c03d5f6b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-6-exercisesc-03-0a7"
   },
   "/docs/module2/chapter6_simulation_2025-b00": {
-    "__comp": "17896441",
-    "content": "8cc124c6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-6-simulation-20258-cc-eda"
   },
   "/docs/module2/chapter7_exercises-433": {
-    "__comp": "17896441",
-    "content": "1d6fe5ca"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-7-exercises-1-d-6-0b4"
   },
   "/docs/module2/chapter7_realistic_sensors-51c": {
-    "__comp": "17896441",
-    "content": "10b37eaf"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-7-realistic-sensors-10-b-7d8"
   },
   "/docs/module2/chapter8_exercises-5b1": {
-    "__comp": "17896441",
-    "content": "316f49eb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-8-exercises-316-be1"
   },
   "/docs/module2/chapter8_photorealistic_rendering-860": {
-    "__comp": "17896441",
-    "content": "4061cf73"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-8-photorealistic-rendering-406-76e"
   },
   "/docs/module2/chapter9_domain_randomization-471": {
-    "__comp": "17896441",
-    "content": "688bd6d2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-9-domain-randomization-688-5a4"
   },
   "/docs/module2/chapter9_exercises-f87": {
-    "__comp": "17896441",
-    "content": "03467d8e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-9-exercises-034-208"
   },
   "/docs/module2/intro-1bb": {
-    "__comp": "17896441",
-    "content": "5424951c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-intro-542-c7b"
   },
   "/docs/module3/-578": {
-    "__comp": "17896441",
-    "content": "92c096df"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-92-c-6d8"
   },
   "/docs/module3/chapter11_simulation_2025-135": {
-    "__comp": "17896441",
-    "content": "33c99868"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-11-simulation-202533-c-217"
   },
   "/docs/module3/chapter12_ros2_fundamentals-1a8": {
-    "__comp": "17896441",
-    "content": "a9fb1395"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-12-ros-2-fundamentalsa-9-f-572"
   },
   "/docs/module3/chapter13_advanced_navigation-ca9": {
-    "__comp": "17896441",
-    "content": "25767c25"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-13-advanced-navigation-257-93d"
   },
   "/docs/module3/chapter14_reinforcement_learning-ef5": {
-    "__comp": "17896441",
-    "content": "629fe891"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-14-reinforcement-learning-629-7d0"
   },
   "/docs/module3/chapter15_sim_to_real_transfer-926": {
-    "__comp": "17896441",
-    "content": "865a355d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-15-sim-to-real-transfer-865-bae"
   },
   "/docs/module3/intro-937": {
-    "__comp": "17896441",
-    "content": "23cfa132"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-intro-23-c-e42"
   },
   "/docs/module3/summary-335": {
-    "__comp": "17896441",
-    "content": "eac2ef45"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-summaryeac-b1b"
   },
   "/docs/module4/-6f0": {
-    "__comp": "17896441",
-    "content": "c57e9801"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-c-57-386"
   },
   "/docs/module4/chapter16_exercises-c56": {
-    "__comp": "17896441",
-    "content": "36ccb944"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-16-exercises-36-c-b50"
   },
   "/docs/module4/chapter16_vla_revolution-7db": {
-    "__comp": "17896441",
-    "content": "80509f8c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-16-vla-revolution-805-1b0"
   },
   "/docs/module4/chapter17_exercises-fff": {
-    "__comp": "17896441",
-    "content": "05d1a4ad"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-17-exercises-05-d-e6d"
   },
   "/docs/module4/chapter17_fine_tuning-a92": {
-    "__comp": "17896441",
-    "content": "2025a203"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-17-fine-tuning-202-7a2"
   },
   "/docs/module4/chapter17_vla_finetuning-83f": {
-    "__comp": "17896441",
-    "content": "05f1f03e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-17-vla-finetuning-05-f-737"
   },
   "/docs/module4/chapter18_exercises-3d4": {
-    "__comp": "17896441",
-    "content": "504bdfd0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-18-exercises-504-75e"
   },
   "/docs/module4/chapter18_voice_action_pipeline-9c2": {
-    "__comp": "17896441",
-    "content": "1bb70dc9"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-18-voice-action-pipeline-1-bb-93e"
   },
   "/docs/module4/chapter19_exercises-23c": {
-    "__comp": "17896441",
-    "content": "d9268513"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-19-exercisesd-92-dd3"
   },
   "/docs/module4/chapter19_multi_modal_foundations-a53": {
-    "__comp": "17896441",
-    "content": "7cbb7dce"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-19-multi-modal-foundations-7-cb-b8c"
   },
   "/docs/module4/chapter20_exercises-7f7": {
-    "__comp": "17896441",
-    "content": "96deeea6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-20-exercises-96-d-23a"
   },
   "/docs/module4/chapter20_sim_to_real_transfer-271": {
-    "__comp": "17896441",
-    "content": "a721674b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-20-sim-to-real-transfera-72-70a"
   },
   "/docs/module4/intro-b26": {
-    "__comp": "17896441",
-    "content": "b6a7eda7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-introb-6-a-f1e"
   },
   "/docs/module4/quickstart-001": {
-    "__comp": "17896441",
-    "content": "f2bdc057"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-quickstartf-2-b-5dd"
   },
   "/docs/module4/summary-668": {
-    "__comp": "17896441",
-    "content": "88c65e52"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-summary-88-c-cbb"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---a-74-9d6"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }

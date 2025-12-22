@@ -1,0 +1,258 @@
+openapi: 3.0.0
+info:
+  title: RAG Chatbot API
+  description: API for the RAG Chatbot integrated with Docusaurus documentation sites
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+  - url: https://api.chatbot.example.com
+    description: Production server
+
+paths:
+  /api/chat/start:
+    post:
+      summary: Start a new chat session
+      description: Creates a new chat session and returns a session ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                  description: Optional user identifier for registered users
+      responses:
+        '200':
+          description: Successfully created a new chat session
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session_id:
+                    type: string
+                    description: Unique identifier for the new session
+        '400':
+          description: Invalid request parameters
+        '500':
+          description: Internal server error
+
+  /api/chat/{session_id}/message:
+    post:
+      summary: Send a message in a chat session
+      description: Sends a user message and returns the AI-generated response
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier for the chat session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - content
+              properties:
+                content:
+                  type: string
+                  description: The user's message content
+                highlighted_text:
+                  type: string
+                  description: Optional text that was highlighted on the page
+      responses:
+        '200':
+          description: Successfully processed the message and returned response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                    description: The AI-generated response
+                  sources:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        url:
+                          type: string
+                          description: URL of the source documentation
+                        title:
+                          type: string
+                          description: Title of the source documentation
+                        snippet:
+                          type: string
+                          description: Relevant snippet from the source
+        '400':
+          description: Invalid request parameters
+        '404':
+          description: Session not found
+        '500':
+          description: Internal server error
+
+  /api/ingest:
+    post:
+      summary: Ingest documentation content
+      description: Crawl and index documentation content into the vector database
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - source_url
+              properties:
+                source_url:
+                  type: string
+                  description: URL of the documentation site to crawl
+                force_reindex:
+                  type: boolean
+                  description: Whether to force reindexing of existing content
+      responses:
+        '200':
+          description: Successfully started the ingestion process
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Status of the ingestion process
+                  message:
+                    type: string
+                    description: Additional information about the process
+        '400':
+          description: Invalid request parameters
+        '500':
+          description: Internal server error
+
+  /api/chat/{session_id}/history:
+    get:
+      summary: Get chat session history
+      description: Retrieves the message history for a specific chat session
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier for the chat session
+      responses:
+        '200':
+          description: Successfully retrieved session history
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  messages:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Message ID
+                        role:
+                          type: string
+                          description: Role of the message sender ("user" or "assistant")
+                        content:
+                          type: string
+                          description: Message content
+                        timestamp:
+                          type: string
+                          format: date-time
+                          description: When the message was created
+        '404':
+          description: Session not found
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    ChatSession:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the session
+        user_id:
+          type: string
+          description: Optional user identifier for registered users
+        created_at:
+          type: string
+          format: date-time
+          description: When the session was created
+        updated_at:
+          type: string
+          format: date-time
+          description: When the session was last updated
+
+    Message:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the message
+        session_id:
+          type: string
+          description: Reference to the parent ChatSession
+        role:
+          type: string
+          description: Role of the message sender ("user" or "assistant")
+        content:
+          type: string
+          description: The actual message content
+        timestamp:
+          type: string
+          format: date-time
+          description: When the message was created
+
+    UserQuery:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the query
+        session_id:
+          type: string
+          description: Reference to the ChatSession
+        content:
+          type: string
+          description: The actual query text
+        timestamp:
+          type: string
+          format: date-time
+          description: When the query was submitted
+
+    GeneratedResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the response
+        query_id:
+          type: string
+          description: Reference to the UserQuery
+        content:
+          type: string
+          description: The generated response text
+        timestamp:
+          type: string
+          format: date-time
+          description: When the response was generated
+        source_chunks:
+          type: array
+          items:
+            type: string
+          description: List of IDs of the chunks used to generate the response

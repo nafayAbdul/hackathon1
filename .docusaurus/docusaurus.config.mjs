@@ -36,13 +36,16 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    null
+  ],
   "themeConfig": {
     "image": "img/physical-ai-social-card.jpg",
     "navbar": {
       "title": "Physical AI Book",
       "logo": {
         "alt": "Physical AI Logo",
-        "src": "img/logo.svg"
+        "src": "img/favicon.ico"
       },
       "items": [
         {
@@ -342,6 +345,21 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "stylesheets": [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+  ],
+  "headTags": [
+    {
+      "tagName": "meta",
+      "attributes": {
+        "name": "Content-Security-Policy",
+        "content": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com; frame-ancestors 'none';"
+      }
+    }
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
@@ -370,11 +388,8 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
-  "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,

@@ -1,0 +1,54 @@
+.chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+.chat-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1b6dfc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1.5rem;
+  z-index: 1001;
+}
+
+.chat-toggle-button span {
+  display: none;
+}
+
+.chat-toggle-button:hover {
+  background-color: #0d5bd6;
+  width: auto;
+  padding: 0 1.5rem;
+}
+
+.chat-toggle-button:hover span {
+  display: inline;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* Additional styles for the chat bubble notification */
+.chat-toggle-button::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4757;
+  border-radius: 50%;
+  border: 2px solid white;
+}
