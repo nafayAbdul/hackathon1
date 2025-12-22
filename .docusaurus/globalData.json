@@ -61,6 +61,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "chatbot-integration",
+              "path": "/docs/chatbot-integration"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

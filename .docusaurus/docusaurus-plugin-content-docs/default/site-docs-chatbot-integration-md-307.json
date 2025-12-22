@@ -1,0 +1,15 @@
+{
+  "id": "chatbot-integration",
+  "title": "Integrating the RAG Chatbot with Docusaurus",
+  "description": "This document provides instructions for integrating the RAG Chatbot into a Docusaurus documentation site.",
+  "source": "@site/docs/chatbot-integration.md",
+  "sourceDirName": ".",
+  "slug": "/chatbot-integration",
+  "permalink": "/docs/chatbot-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/nafayAbdul/hackathon1/tree/main/docs/docs/chatbot-integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -48,6 +48,24 @@ const config = {
     ],
   ],
 
+  plugins: [
+    // Plugin to wrap the layout with the chat widget
+    async function myPlugin() {
+      return {
+        name: 'chat-widget-plugin',
+        configureWebpack(config, isServer, utils) {
+          return {
+            resolve: {
+              alias: {
+                '@theme/ChatWidget': './src/theme/ChatWidget.js',
+              },
+            },
+          };
+        },
+      };
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -57,7 +75,7 @@ const config = {
         title: 'Physical AI Book',
         logo: {
           alt: 'Physical AI Logo',
-          src: 'img/logo.png',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -132,6 +150,24 @@ const config = {
         additionalLanguages: ['python', 'bash'],
       },
     }),
+
+  stylesheets: [
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap',
+    'https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&display=swap',
+    'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap',
+  ],
+
+  headTags: [
+    // Content Security Policy for security
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'Content-Security-Policy',
+        content: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com; frame-ancestors 'none';",
+      },
+    },
+  ],
 };
 
 module.exports = config;

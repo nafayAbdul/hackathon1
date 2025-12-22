@@ -1,0 +1,166 @@
+/* Custom Navbar styles for Physical AI & Humanoid Robotics site */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 25px 0; /* Reduced padding to better contain elements */
+  backdrop-filter: blur(12px);
+  background: rgba(10, 15, 29, 0.85);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(0);
+}
+
+.navbar.scrolled {
+  padding: 15px 0; /* Less padding when scrolled */
+  background: rgba(10, 15, 29, 0.95);
+  backdrop-filter: blur(20px);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Reduced gap to better contain elements */
+}
+
+.navbar__link {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600; /* Balanced font weight */
+  position: relative;
+  padding: 6px 0; /* Reduced padding */
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-size: 1.2rem; /* Reduced font size to fit properly */
+  display: inline-block;
+}
+
+.navbar__logo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.8rem; /* Reduced logo size to fit properly */
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Reduced gap between logo elements */
+  animation: pulseLogo 2s infinite;
+}
+
+.navbar__logo-text {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+}
+
+.navbar__link:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.navbar__link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar__link:hover::after {
+  width: 100%;
+}
+
+/* Mobile menu overlay - full-width overlay behavior */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 15, 29, 0.95); /* var(--darker) with high opacity */
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-menu-content {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: var(--darker);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 5rem;
+}
+
+.mobile-menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.mobile-menu-content li {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.mobile-menu-content a {
+  color: var(--light);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu-content a:hover {
+  color: var(--primary);
+}
+
+.mobile-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: var(--light);
+  font-size: 3rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
