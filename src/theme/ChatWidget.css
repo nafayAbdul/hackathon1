@@ -207,13 +207,7 @@
   animation: messageFadeIn 0.4s ease;
 }
 
-@keyframes messageFadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 .user-message {
-  align-self: flex-end;
   background: linear-gradient(135deg, var(--primary), #0284c7);
   color: white;
   border-radius: 18px 8px 18px 18px;
@@ -221,6 +215,7 @@
   box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
   position: relative;
   overflow: hidden;
+  align-self: flex-end;
 }
 
 .user-message::before {
@@ -236,13 +231,7 @@
   animation: shimmer 3s infinite;
 }
 
-@keyframes shimmer {
-  0% { transform: translateX(-100%) rotate(0deg); }
-  100% { transform: translateX(100%) rotate(0deg); }
-}
-
 .ai-message {
-  align-self: flex-start;
   background: rgba(30, 41, 59, 0.8);
   color: var(--light);
   border: 1px solid rgba(14, 165, 233, 0.2);
@@ -251,6 +240,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
+  align-self: flex-start;
 }
 
 .ai-message::before {
@@ -270,6 +260,10 @@
   font-size: 1rem;
   line-height: 1.6;
   font-family: 'Inter', sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
 .message-timestamp {
